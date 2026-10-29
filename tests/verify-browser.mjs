@@ -123,13 +123,23 @@ try {
     maxParticles: 4096, rate: 2000, lifetime: 2, speed: [10, 80], angle: [0, 6.283185307], size: [3, 10],
     alphaOverLife: [{ time: 0, value: 0 }, { time: .1, value: .5 }, { time: 1, value: 0 }] }] };
   await evaluate(`lab.importJSON(${JSON.stringify(JSON.stringify(stress))});lab.seek(3);lab.paused=false;`);
-  const load = [];
-  for (let i = 0; i < 12; i++) {
-    await delay(150); const s = await evaluate('lab.stats()');
-    assert.ok(s.positionsFinite && s.particles <= s.poolCapacity);
-    load.push({ particles: s.particles, cpuMs: s.cpuMs, drawCalls: s.drawCalls, frameP95: s.frameP95 });
-  }
-  assert.ok(load.every(s => s.particles >= 3900), 'Load test must sustain about 4000 live particles');
+  // Sample rendered frames inside the browser. External CDP polling can take long
+  // enough on a software-rendered CI worker to cross the 5.6 s emission stop.
+  const load = await evaluate(`new Promise((resolve, reject) => {
+    const samples = [], start = lab.time, deadline = performance.now() + 60000;
+    const sample = () => {
+      const s = lab.stats();
+      samples.push({time:s.time,particles:s.particles,poolCapacity:s.poolCapacity,positionsFinite:s.positionsFinite,
+        cpuMs:s.cpuMs,drawCalls:s.drawCalls,frameP95:s.frameP95});
+      if (s.time - start >= 1.8) return resolve(samples);
+      if (performance.now() > deadline) return reject(new Error('Load playback did not advance for 1.8 simulation seconds'));
+      requestAnimationFrame(sample);
+    };
+    requestAnimationFrame(sample);
+  })`);
+  assert.ok(load.length > 1 && load.at(-1).time >= 4.8, 'Load playback must advance');
+  assert.ok(load.every(s => s.positionsFinite && s.particles <= s.poolCapacity));
+  assert.ok(load.every(s => s.particles >= 3900), 'Load test must sustain about 4000 live particles: '+JSON.stringify(load));
   report.loadTest = { targetParticles: 4000, samples: load,
     maxSmoothedCpuMs: Math.max(...load.map(s => s.cpuMs)), peakDrawCalls: Math.max(...load.map(s => s.drawCalls)),
     frameP95Ms: load.at(-1).frameP95 };
