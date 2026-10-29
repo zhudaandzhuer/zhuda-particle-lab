@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "electric-1",
+      "texture": "bolt",
+      "seed": 59597,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 170,
+        "height": 100
+      },
+      "rate": 13,
+      "lifetime": 0.12,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        30,
+        75
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "electric-2",
+      "texture": "streak",
+      "seed": 59614,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 65,
+      "lifetime": 0.4,
+      "speed": [
+        100,
+        220
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        1,
+        4
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "stretch": 5,
+      "acceleration": {
+        "x": 0,
+        "y": 100
+      },
+      "alignToVelocity": true
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "tech",
+    "actor": "reactor",
+    "zoom": 1.4,
+    "bindings": {
+      "electric-1": {},
+      "electric-2": {}
+    }
+  }
+}

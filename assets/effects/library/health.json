@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "health-1",
+      "texture": "cross",
+      "seed": 77435,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "circle",
+        "radius": 35
+      },
+      "rate": 8,
+      "lifetime": 1,
+      "speed": [
+        30,
+        55
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        12,
+        20
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#e2ffca"
+        },
+        {
+          "time": 0.5,
+          "color": "#82dc9d"
+        },
+        {
+          "time": 1,
+          "color": "#348571"
+        }
+      ]
+    },
+    {
+      "id": "health-2",
+      "texture": "heart",
+      "seed": 77452,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 4,
+      "lifetime": 1.1,
+      "speed": [
+        10,
+        20
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        25,
+        40
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffd6bf"
+        },
+        {
+          "time": 0.5,
+          "color": "#fa7558"
+        },
+        {
+          "time": 1,
+          "color": "#9b3042"
+        }
+      ]
+    },
+    {
+      "id": "health-3",
+      "texture": "glow",
+      "seed": 77469,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 30,
+      "lifetime": 0.25,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        2,
+        5
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "ui",
+    "actor": "item",
+    "zoom": 1.6,
+    "bindings": {
+      "health-1": {
+        "y": 45
+      },
+      "health-2": {
+        "y": 20
+      },
+      "health-3": {
+        "motion": "orbit",
+        "radius": 65,
+        "frequency": 2
+      }
+    }
+  }
+}

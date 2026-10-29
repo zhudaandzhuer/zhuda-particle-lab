@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "chimney-1",
+      "texture": "smoke",
+      "seed": 15993,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 28,
+      "lifetime": [
+        1.6,
+        2.8
+      ],
+      "speed": [
+        65,
+        85
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        45,
+        65
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.28
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#71838b"
+        },
+        {
+          "time": 1,
+          "color": "#384854"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      },
+      "acceleration": {
+        "x": 24,
+        "y": -10
+      }
+    },
+    {
+      "id": "chimney-2",
+      "texture": "glow",
+      "seed": 16010,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 7,
+      "lifetime": 0.7,
+      "speed": [
+        35,
+        65
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        1,
+        3
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff8cd"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffad42"
+        },
+        {
+          "time": 1,
+          "color": "#c23e22"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "fire",
+    "actor": "chimney",
+    "zoom": 1.8,
+    "bindings": {
+      "chimney-1": {
+        "y": 60
+      },
+      "chimney-2": {
+        "y": 45
+      }
+    }
+  }
+}

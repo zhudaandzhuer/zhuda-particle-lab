@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "sandstorm-1",
+      "texture": "dust",
+      "seed": 7074,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 30,
+        "height": 580
+      },
+      "rate": 70,
+      "lifetime": [
+        2.3,
+        3
+      ],
+      "speed": [
+        180,
+        300
+      ],
+      "angle": [
+        -0.1,
+        0.1
+      ],
+      "size": [
+        40,
+        90
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f1d6a2"
+        },
+        {
+          "time": 0.5,
+          "color": "#bd976b"
+        },
+        {
+          "time": 1,
+          "color": "#7d694d"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -1,
+        1
+      ],
+      "turbulence": {
+        "strength": 50,
+        "frequency": 4
+      }
+    },
+    {
+      "id": "sandstorm-2",
+      "texture": "streak",
+      "seed": 7091,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 30,
+        "height": 580
+      },
+      "rate": 95,
+      "lifetime": 2.3,
+      "speed": [
+        320,
+        460
+      ],
+      "angle": [
+        -0.1,
+        0.1
+      ],
+      "size": [
+        1,
+        3
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -1,
+        1
+      ],
+      "stretch": 7,
+      "alignToVelocity": true
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "weather",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "sandstorm-1": {
+        "y": -10,
+        "x": -470
+      },
+      "sandstorm-2": {
+        "y": -10,
+        "x": -470
+      }
+    }
+  }
+}

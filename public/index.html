@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zhuda · 粒子實驗室</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header><a class="brand" href="./">Z<span>／</span></a><div><h1>粒子實驗室</h1><p>ZH UDA / MOTION STUDIES <span class="edition">100</span></p></div><span class="status"><i></i> LAYA WEBGL</span></header>
+  <main>
+    <section class="workspace">
+      <div class="viewer-head"><span class="eyebrow">LIVE CANVAS</span><span id="scene-label">092 / 3D 賽車暴衝</span><button id="camera">3D 視角：追車</button><button id="reset" title="從頭播放">↻ 重播</button></div>
+      <div class="viewport"><iframe id="stage" src="stage.html" title="粒子效果即時預覽"></iframe><div class="viewer-caption"><span id="phase">正在準備畫布</span><span>固定種子 · 可重播</span></div></div>
+      <div class="transport"><button id="pause" class="play">Ⅱ 暫停</button><input id="timeline" aria-label="演出時間" type="range" min="0" max="8" value="0" step="0.016667"><span id="time">0.00 / 8.00 s</span><label class="loop"><input id="loop" type="checkbox" checked> 循環</label></div>
+      <div class="metrics"><div><span>活躍粒子</span><strong id="particles">—</strong></div><div><span>CPU 更新＋提交</span><strong id="cpu">—</strong></div><div><span>WebGL draw calls</span><strong id="draws">—</strong></div><div><span>幀間隔 P95</span><strong id="frame">—</strong></div></div>
+      <p class="footnote">上方為此瀏覽器的即時量測；CPU 時間不包含 GPU 完成時間。</p>
+    </section>
+    <aside>
+      <div class="panel-label">實用場景效果 <span>100</span></div>
+      <a class="gallery-link" href="catalog.html">100 種效果圖鑑 ↗</a>
+      <div class="library-filters"><label for="category">效果分類</label><select id="category"><option value="all">全部分類 · 100 種</option></select><input id="search" type="search" placeholder="搜尋效果或用途…" aria-label="搜尋效果或用途"></div>
+      <div class="list-meta"><span id="result-count">載入效果…</span><div><button id="previous" title="上一個效果" aria-label="上一個效果">←</button><button id="next" title="下一個效果" aria-label="下一個效果">→</button></div></div>
+      <div id="presets" class="presets" aria-label="效果清單"></div>
+      <div id="effect-detail"><span id="effect-category">3D 與動態</span><h2 id="effect-title">3D 賽車暴衝</h2><p id="effect-usecase">車頭起流、全車包覆與追車尾流</p></div>
+      <div class="panel-label parameters">即時調整 <span>LIVE</span></div>
+      <label class="control">發射密度 <output id="density-value">1.0×</output><input id="density" type="range" min="0.2" max="2" step="0.1" value="1"></label>
+      <label class="control">初始速度 <output id="velocity-value">1.0×</output><input id="velocity" type="range" min="0.3" max="2" step="0.1" value="1"></label>
+      <label class="control">生命週期 <output id="lifetime-value">1.0×</output><input id="lifetime" type="range" min="0.3" max="2" step="0.1" value="1"></label>
+      <div class="toggles"><label><input type="checkbox" id="trails" checked> 路徑尾流</label><label><input type="checkbox" id="ground" checked> 地面波紋</label><label><input type="checkbox" id="enabled" checked> 顯示特效</label></div>
+      <div class="actions"><button id="export">↓ 匯出 JSON</button><label class="import" for="import">↑ 匯入 JSON</label><input type="file" id="import" accept="application/json" hidden></div>
+      <p id="message" role="status">車頭起流 → 包覆車頂與兩側 → 彎道尾流 → 停止消散。可切換視角。</p>
+    </aside>
+  </main>
+  <footer><span>ZH UDA · PARTICLE LAB</span><span>100 EFFECTS / 10 CATEGORIES / 2D + 3D</span></footer>
+  <script src="controls.js"></script>
+</body></html>

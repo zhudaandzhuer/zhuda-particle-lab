@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "campfire-1",
+      "texture": "flame",
+      "seed": 13020,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 65,
+        "height": 10
+      },
+      "rate": 48,
+      "lifetime": [
+        0.4,
+        0.9
+      ],
+      "speed": [
+        40,
+        100
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        30,
+        55
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff8cd"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffad42"
+        },
+        {
+          "time": 1,
+          "color": "#c23e22"
+        }
+      ],
+      "turbulence": {
+        "strength": 20,
+        "frequency": 4
+      }
+    },
+    {
+      "id": "campfire-2",
+      "texture": "glow",
+      "seed": 13037,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 14,
+      "lifetime": [
+        1,
+        1.8
+      ],
+      "speed": [
+        80,
+        140
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        2,
+        6
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "acceleration": {
+        "x": 8,
+        "y": -20
+      }
+    },
+    {
+      "id": "campfire-3",
+      "texture": "smoke",
+      "seed": 13054,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 10,
+      "lifetime": [
+        1.1,
+        2.2
+      ],
+      "speed": [
+        45,
+        65
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        40,
+        75
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.28
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#cfdbdf"
+        },
+        {
+          "time": 0.5,
+          "color": "#8a9ba5"
+        },
+        {
+          "time": 1,
+          "color": "#4d6274"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "fire",
+    "actor": "logs",
+    "zoom": 1.8,
+    "bindings": {
+      "campfire-1": {
+        "y": 160
+      },
+      "campfire-2": {
+        "y": 130
+      },
+      "campfire-3": {
+        "y": 110
+      }
+    }
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "checkedAt": "2026-10-29T14:36:55.732Z",
+  "url": "http://localhost:8894/",
+  "presets": {
+    "sprint": {
+      "particles": 37,
+      "trailPoints": 388,
+      "poolCapacity": 1536,
+      "meshSubmissions": 32,
+      "drawCalls": 6,
+      "positionsFinite": true
+    },
+    "fire": {
+      "particles": 123,
+      "trailPoints": 0,
+      "poolCapacity": 1152,
+      "meshSubmissions": 33,
+      "drawCalls": 16,
+      "positionsFinite": true
+    },
+    "smoke": {
+      "particles": 50,
+      "trailPoints": 0,
+      "poolCapacity": 384,
+      "meshSubmissions": 12,
+      "drawCalls": 6,
+      "positionsFinite": true
+    },
+    "explosion": {
+      "particles": 121,
+      "trailPoints": 0,
+      "poolCapacity": 1152,
+      "meshSubmissions": 7,
+      "drawCalls": 5,
+      "positionsFinite": true
+    },
+    "snow": {
+      "particles": 242,
+      "trailPoints": 0,
+      "poolCapacity": 1024,
+      "meshSubmissions": 10,
+      "drawCalls": 3,
+      "positionsFinite": true
+    },
+    "coins": {
+      "particles": 60,
+      "trailPoints": 0,
+      "poolCapacity": 384,
+      "meshSubmissions": 12,
+      "drawCalls": 5,
+      "positionsFinite": true
+    },
+    "magic": {
+      "particles": 97,
+      "trailPoints": 0,
+      "poolCapacity": 768,
+      "meshSubmissions": 22,
+      "drawCalls": 10,
+      "positionsFinite": true
+    }
+  },
+  "samples": {
+    "2": {
+      "particles": 42,
+      "trailPoints": 388,
+      "poolCapacity": 1536,
+      "meshSubmissions": 38,
+      "drawCalls": 6,
+      "positionsFinite": true
+    },
+    "0.8": {
+      "particles": 2,
+      "trailPoints": 36,
+      "poolCapacity": 1536,
+      "meshSubmissions": 6,
+      "drawCalls": 5,
+      "positionsFinite": true
+    },
+    "5.65": {
+      "particles": 37,
+      "trailPoints": 356,
+      "poolCapacity": 1536,
+      "meshSubmissions": 30,
+      "drawCalls": 13,
+      "positionsFinite": true
+    },
+    "7.8": {
+      "particles": 0,
+      "trailPoints": 0,
+      "poolCapacity": 1536,
+      "meshSubmissions": 0,
+      "drawCalls": 3,
+      "positionsFinite": true
+    }
+  },
+  "performance": {
+    "scope": "Desktop headless Chrome, real WebGL; no mobile performance claim",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "samples": [
+      {
+        "time": 0.20833333333333331,
+        "cpuMs": 0.055321411887827056,
+        "frameP95": 16.700000000000273,
+        "drawCalls": 3,
+        "particles": 0
+      },
+      {
+        "time": 0.40833333333333377,
+        "cpuMs": 0.051162375435682854,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 3,
+        "particles": 0
+      },
+      {
+        "time": 0.6083333333333336,
+        "cpuMs": 0.05053695360801467,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 3,
+        "particles": 0
+      },
+      {
+        "time": 0.8083333333333329,
+        "cpuMs": 0.0876442323798081,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 5,
+        "particles": 2
+      },
+      {
+        "time": 1.0083333333333322,
+        "cpuMs": 0.11989187222130664,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 7,
+        "particles": 23
+      },
+      {
+        "time": 1.224999999999998,
+        "cpuMs": 0.13729328911960276,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 9,
+        "particles": 37
+      },
+      {
+        "time": 1.4249999999999974,
+        "cpuMs": 0.14606588565121403,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 7,
+        "particles": 38
+      },
+      {
+        "time": 1.6249999999999967,
+        "cpuMs": 0.12375811197581524,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 14,
+        "particles": 40
+      },
+      {
+        "time": 1.824999999999996,
+        "cpuMs": 0.15647330967290285,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 12,
+        "particles": 43
+      },
+      {
+        "time": 2.041666666666662,
+        "cpuMs": 0.19891057119168962,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 12,
+        "particles": 40
+      },
+      {
+        "time": 2.2416666666666614,
+        "cpuMs": 0.16206133626200217,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 11,
+        "particles": 39
+      },
+      {
+        "time": 2.4416666666666607,
+        "cpuMs": 0.1653481486917951,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 14,
+        "particles": 38
+      },
+      {
+        "time": 2.64166666666666,
+        "cpuMs": 0.18456092191841628,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 18,
+        "particles": 41
+      },
+      {
+        "time": 2.858333333333326,
+        "cpuMs": 0.16913393295396842,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 14,
+        "particles": 38
+      },
+      {
+        "time": 3.058333333333325,
+        "cpuMs": 0.15633979911836704,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 15,
+        "particles": 42
+      },
+      {
+        "time": 3.2583333333333244,
+        "cpuMs": 0.18916241418638205,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 14,
+        "particles": 37
+      },
+      {
+        "time": 3.4583333333333237,
+        "cpuMs": 0.20283667393858557,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 15,
+        "particles": 36
+      },
+      {
+        "time": 3.6749999999999896,
+        "cpuMs": 0.1925675197867433,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 11,
+        "particles": 42
+      },
+      {
+        "time": 3.874999999999989,
+        "cpuMs": 0.17212396193014093,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 11,
+        "particles": 39
+      },
+      {
+        "time": 4.09166666666666,
+        "cpuMs": 0.15191836948209414,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 14,
+        "particles": 40
+      },
+      {
+        "time": 4.29166666666667,
+        "cpuMs": 0.17528445348319713,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 14,
+        "particles": 34
+      },
+      {
+        "time": 4.49166666666668,
+        "cpuMs": 0.15796527192247833,
+        "frameP95": 16.800000000000182,
+        "drawCalls": 20,
+        "particles": 42
+      },
+      {
+        "time": 4.6916666666666895,
+        "cpuMs": 0.17703581867321908,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 15,
+        "particles": 37
+      },
+      {
+        "time": 4.908333333333367,
+        "cpuMs": 0.1529782599777963,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 18,
+        "particles": 34
+      },
+      {
+        "time": 5.108333333333377,
+        "cpuMs": 0.1420397056212971,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 19,
+        "particles": 36
+      },
+      {
+        "time": 5.308333333333387,
+        "cpuMs": 0.14624274170663992,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 14,
+        "particles": 39
+      },
+      {
+        "time": 5.525000000000064,
+        "cpuMs": 0.12049259667391055,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 15,
+        "particles": 43
+      },
+      {
+        "time": 5.725000000000074,
+        "cpuMs": 0.12108064534525018,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 15,
+        "particles": 26
+      },
+      {
+        "time": 5.925000000000084,
+        "cpuMs": 0.10705348960089,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 4,
+        "particles": 3
+      },
+      {
+        "time": 6.141666666666762,
+        "cpuMs": 0.08325811333275951,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 6,
+        "particles": 1
+      },
+      {
+        "time": 6.341666666666772,
+        "cpuMs": 0.07231985922880202,
+        "frameP95": 16.799999999999272,
+        "drawCalls": 6,
+        "particles": 0
+      },
+      {
+        "time": 6.5416666666667815,
+        "cpuMs": 0.07031938751184993,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 3,
+        "particles": 0
+      },
+      {
+        "time": 6.7416666666667915,
+        "cpuMs": 0.07008364578260787,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 3,
+        "particles": 0
+      },
+      {
+        "time": 6.941666666666801,
+        "cpuMs": 0.08606401288414213,
+        "frameP95": 16.700000000000728,
+        "drawCalls": 3,
+        "particles": 0
+      }
+    ],
+    "peakParticles": 43,
+    "peakDrawCalls": 20,
+    "maxSmoothedCpuMs": 0.20283667393858557,
+    "frameP95Ms": 16.700000000000728
+  },
+  "loadTest": {
+    "targetParticles": 4000,
+    "samples": [
+      {
+        "particles": 4000,
+        "cpuMs": 0.23915858275225957,
+        "drawCalls": 12,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.32879580744566717,
+        "drawCalls": 13,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.3272327562032443,
+        "drawCalls": 12,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.31526826772877037,
+        "drawCalls": 12,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.27483418127097065,
+        "drawCalls": 12,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.3054992869358235,
+        "drawCalls": 11,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.32336317737094833,
+        "drawCalls": 13,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.34526612403452234,
+        "drawCalls": 11,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.31118637904316554,
+        "drawCalls": 13,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.34846189699383984,
+        "drawCalls": 12,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.35583446188356493,
+        "drawCalls": 15,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "particles": 4000,
+        "cpuMs": 0.36177374864523076,
+        "drawCalls": 14,
+        "frameP95": 16.700000000000728
+      }
+    ],
+    "maxSmoothedCpuMs": 0.36177374864523076,
+    "peakDrawCalls": 15,
+    "frameP95Ms": 16.700000000000728
+  },
+  "passed": true
+}

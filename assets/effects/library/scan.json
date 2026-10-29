@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "scan-1",
+      "texture": "beam",
+      "seed": 63561,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 100,
+      "lifetime": 0.04,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 12,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ],
+      "stretch": 20
+    },
+    {
+      "id": "scan-2",
+      "texture": "pixel",
+      "seed": 63578,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 170,
+        "height": 4
+      },
+      "rate": 70,
+      "lifetime": 0.6,
+      "speed": [
+        20,
+        50
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        3,
+        7
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "tech",
+    "actor": "dummy",
+    "zoom": 1.4,
+    "bindings": {
+      "scan-1": {
+        "motion": "scan",
+        "radius": 150,
+        "frequency": 0.8
+      },
+      "scan-2": {
+        "motion": "scan",
+        "radius": 150,
+        "frequency": 0.8
+      }
+    }
+  }
+}

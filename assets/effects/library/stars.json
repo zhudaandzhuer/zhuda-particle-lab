@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "stars-1",
+      "texture": "star",
+      "seed": 83381,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        0.7,
+        1.3
+      ],
+      "speed": [
+        90,
+        190
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        10,
+        24
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 40
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -3,
+        3
+      ],
+      "drag": 0.7
+    },
+    {
+      "id": "stars-2",
+      "texture": "ring",
+      "seed": 83398,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.9,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 210,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.15
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0.9
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "stars-3",
+      "texture": "spark",
+      "seed": 83415,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.4,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 180,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "reward",
+    "actor": "item",
+    "zoom": 1.4,
+    "bindings": {
+      "stars-1": {},
+      "stars-2": {},
+      "stars-3": {}
+    }
+  }
+}

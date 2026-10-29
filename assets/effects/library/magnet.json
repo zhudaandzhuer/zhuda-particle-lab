@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "magnet-1",
+      "texture": "glow",
+      "seed": 68516,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 140,
+      "lifetime": 0.85,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        5,
+        9
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ]
+    },
+    {
+      "id": "magnet-2",
+      "texture": "glow",
+      "seed": 68533,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 100,
+      "lifetime": 0.85,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        5,
+        9
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ]
+    },
+    {
+      "id": "magnet-3",
+      "texture": "ring",
+      "seed": 68550,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 1,
+      "lifetime": 1.5,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 130,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "angularVelocity": 0.6
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "tech",
+    "actor": "orb",
+    "zoom": 1.4,
+    "bindings": {
+      "magnet-1": {
+        "motion": "orbit",
+        "radius": 130,
+        "frequency": 2.4,
+        "ellipse": 0.5
+      },
+      "magnet-2": {
+        "motion": "orbit",
+        "radius": 150,
+        "frequency": -1.8,
+        "phase": 1.2,
+        "ellipse": 1
+      },
+      "magnet-3": {}
+    }
+  }
+}

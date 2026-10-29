@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "dimension": 3,
+  "emitters": [
+    {
+      "id": "meteor3d-1",
+      "texture": "glow",
+      "seed": 98246,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 120,
+      "lifetime": 0.8,
+      "speed": 0.2,
+      "size": [
+        0.15,
+        0.3
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff8cd"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffad42"
+        },
+        {
+          "time": 1,
+          "color": "#c23e22"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 3.141592653589793
+    },
+    {
+      "id": "meteor3d-2",
+      "texture": "flame",
+      "seed": 98263,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 75,
+      "lifetime": 0.5,
+      "speed": [
+        0.1,
+        0.5
+      ],
+      "size": [
+        0.2,
+        0.4
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 3.141592653589793
+    },
+    {
+      "id": "meteor3d-3",
+      "texture": "spark",
+      "seed": 98280,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 65,
+      "lifetime": 1.1,
+      "speed": [
+        0.1,
+        0.6
+      ],
+      "size": [
+        0.02,
+        0.07
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 3.141592653589793
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "motion",
+    "actor": "sky",
+    "zoom": 1,
+    "bindings": {
+      "meteor3d-1": {
+        "motion": "projectile",
+        "radius": 4,
+        "y": 3,
+        "period": 2.8
+      },
+      "meteor3d-2": {
+        "motion": "projectile",
+        "radius": 4,
+        "y": 3,
+        "period": 2.8
+      },
+      "meteor3d-3": {
+        "motion": "projectile",
+        "radius": 4,
+        "y": 3,
+        "period": 2.8
+      }
+    }
+  }
+}

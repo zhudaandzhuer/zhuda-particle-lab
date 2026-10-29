@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "loading-1",
+      "texture": "glow",
+      "seed": 74462,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 120,
+      "lifetime": 0.9,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 12,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ]
+    },
+    {
+      "id": "loading-2",
+      "texture": "glow",
+      "seed": 74479,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 35,
+      "lifetime": 0.6,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 5,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "ui",
+    "actor": "card",
+    "zoom": 1.6,
+    "bindings": {
+      "loading-1": {
+        "motion": "orbit",
+        "radius": 55,
+        "frequency": 5
+      },
+      "loading-2": {
+        "motion": "orbit",
+        "radius": 77,
+        "frequency": -3
+      }
+    }
+  }
+}

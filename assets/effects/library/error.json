@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "error-1",
+      "texture": "cross",
+      "seed": 71489,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.75,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 110,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.2
+        },
+        {
+          "time": 0.2,
+          "value": 1.2
+        },
+        {
+          "time": 1,
+          "value": 0.9
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffd6bf"
+        },
+        {
+          "time": 0.5,
+          "color": "#fa7558"
+        },
+        {
+          "time": 1,
+          "color": "#9b3042"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ],
+      "rotation": 0.7853981633974483
+    },
+    {
+      "id": "error-2",
+      "texture": "shard",
+      "seed": 71506,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.55,
+      "speed": [
+        70,
+        150
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        3,
+        9
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffd6bf"
+        },
+        {
+          "time": 0.5,
+          "color": "#fa7558"
+        },
+        {
+          "time": 1,
+          "color": "#9b3042"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 24
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": 130
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "ui",
+    "actor": "card",
+    "zoom": 1.6,
+    "bindings": {
+      "error-1": {},
+      "error-2": {}
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "confetti-1",
+      "texture": "confetti",
+      "seed": 80408,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        1.6,
+        2.5
+      ],
+      "speed": [
+        130,
+        280
+      ],
+      "angle": [
+        -1.2,
+        -0.55
+      ],
+      "size": [
+        8,
+        17
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff3f8"
+        },
+        {
+          "time": 0.5,
+          "color": "#ee9aca"
+        },
+        {
+          "time": 1,
+          "color": "#a458bc"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 100
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": 150
+      },
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -5,
+        5
+      ]
+    },
+    {
+      "id": "confetti-2",
+      "texture": "paper",
+      "seed": 80425,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        1.6,
+        2.5
+      ],
+      "speed": [
+        130,
+        280
+      ],
+      "angle": [
+        -2.6,
+        -1.9
+      ],
+      "size": [
+        9,
+        19
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 100
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": 150
+      },
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -4,
+        4
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "reward",
+    "actor": "gift",
+    "zoom": 1.4,
+    "bindings": {
+      "confetti-1": {
+        "x": -230,
+        "y": 150
+      },
+      "confetti-2": {
+        "x": 230,
+        "y": 150
+      }
+    }
+  }
+}

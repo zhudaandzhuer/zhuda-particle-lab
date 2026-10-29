@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "frost-1",
+      "texture": "snowflake",
+      "seed": 55633,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 1.3,
+      "speed": [
+        40,
+        160
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        12,
+        25
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 65
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.6,
+        0.6
+      ],
+      "drag": 1
+    },
+    {
+      "id": "frost-2",
+      "texture": "shard",
+      "seed": 55650,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.9,
+      "speed": [
+        20,
+        80
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        25,
+        55
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.1
+        },
+        {
+          "time": 0.3,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.3
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 22
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "frost-3",
+      "texture": "ring",
+      "seed": 55667,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 1.2,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 270,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.15
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0.9
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "magic",
+    "actor": "crystal",
+    "zoom": 1.6,
+    "bindings": {
+      "frost-1": {},
+      "frost-2": {},
+      "frost-3": {}
+    }
+  }
+}

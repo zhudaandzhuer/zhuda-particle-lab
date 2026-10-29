@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "petals-1",
+      "texture": "petal",
+      "seed": 6083,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 1000,
+        "height": 600
+      },
+      "rate": 45,
+      "lifetime": [
+        3,
+        4.5
+      ],
+      "speed": [
+        40,
+        85
+      ],
+      "angle": [
+        0.5,
+        1.1
+      ],
+      "size": [
+        9,
+        19
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff3f8"
+        },
+        {
+          "time": 0.5,
+          "color": "#ee9aca"
+        },
+        {
+          "time": 1,
+          "color": "#a458bc"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -2,
+        2
+      ],
+      "turbulence": {
+        "strength": 20,
+        "frequency": 2
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "weather",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "petals-1": {
+        "y": -120,
+        "x": 0
+      }
+    }
+  }
+}

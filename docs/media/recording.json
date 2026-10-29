@@ -1,0 +1,131 @@
+{
+  "fps": 60,
+  "width": 1280,
+  "height": 880,
+  "durationSeconds": 17,
+  "frames": 1020,
+  "simulationHz": 120,
+  "method": "Actual WebGL frame capture at 60 fps, with two fixed simulation steps per output frame. Impact examples replay every 0.65 seconds, with staggered onsets across panels. No interpolated or upsampled frames.",
+  "clips": [
+    {
+      "id": "chase",
+      "preset": "racing3d",
+      "camera": "chase",
+      "start": 1.1,
+      "seconds": 3,
+      "scale": 1,
+      "frames": 180,
+      "captureReused": true
+    },
+    {
+      "id": "side",
+      "preset": "racing3d",
+      "camera": "side",
+      "start": 1.5,
+      "seconds": 3,
+      "scale": 1,
+      "frames": 180,
+      "captureReused": true
+    },
+    {
+      "id": "front",
+      "preset": "racing3d",
+      "camera": "front",
+      "start": 1.3,
+      "seconds": 3,
+      "scale": 1,
+      "frames": 180,
+      "captureReused": true
+    },
+    {
+      "id": "portal",
+      "preset": "portal",
+      "start": 1.1,
+      "seconds": 4,
+      "scale": 0.5,
+      "frames": 240,
+      "captureReused": true
+    },
+    {
+      "id": "holy",
+      "preset": "holy",
+      "start": 1.1,
+      "seconds": 4,
+      "scale": 0.5,
+      "frames": 240,
+      "captureReused": true
+    },
+    {
+      "id": "vortex",
+      "preset": "vortex",
+      "start": 1.1,
+      "seconds": 4,
+      "scale": 0.5,
+      "frames": 240,
+      "captureReused": true
+    },
+    {
+      "id": "healing",
+      "preset": "healing",
+      "start": 1.1,
+      "seconds": 4,
+      "scale": 0.5,
+      "frames": 240,
+      "captureReused": true
+    },
+    {
+      "id": "fireball",
+      "preset": "fireball",
+      "start": 0.7166666666666667,
+      "seconds": 4,
+      "scale": 0.5,
+      "period": 0.65,
+      "phase": 0,
+      "frames": 240,
+      "peakParticles": 110
+    },
+    {
+      "id": "critical",
+      "preset": "critical",
+      "start": 0.7166666666666667,
+      "seconds": 4,
+      "scale": 0.5,
+      "period": 0.65,
+      "phase": 0.15,
+      "frames": 240,
+      "peakParticles": 47
+    },
+    {
+      "id": "frost",
+      "preset": "frost",
+      "start": 0.7166666666666667,
+      "seconds": 4,
+      "scale": 0.5,
+      "period": 0.65,
+      "phase": 0.3,
+      "frames": 240,
+      "peakParticles": 88
+    },
+    {
+      "id": "explosion3d",
+      "preset": "explosion3d",
+      "start": 0.7166666666666667,
+      "seconds": 4,
+      "scale": 0.5,
+      "period": 0.65,
+      "phase": 0.44999999999999996,
+      "frames": 240,
+      "peakParticles": 230
+    }
+  ],
+  "validation": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 880,
+    "fps": 60,
+    "durationSeconds": 17,
+    "decodedFrames": 1020,
+    "racingUniqueFrames": 540,
+    "gifFrames": 192
+  }
+}

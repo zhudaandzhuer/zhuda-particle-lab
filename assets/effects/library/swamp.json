@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "swamp-1",
+      "texture": "smoke",
+      "seed": 35813,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 430,
+        "height": 15
+      },
+      "rate": 25,
+      "lifetime": [
+        1.5,
+        2.5
+      ],
+      "speed": [
+        10,
+        25
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        60,
+        100
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.3,
+          "value": 0.3
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#a6d481"
+        },
+        {
+          "time": 1,
+          "color": "#497965"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    },
+    {
+      "id": "swamp-2",
+      "texture": "bubble",
+      "seed": 35830,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 7,
+      "lifetime": 1.2,
+      "speed": [
+        20,
+        40
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        6,
+        17
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#e2ffca"
+        },
+        {
+          "time": 0.5,
+          "color": "#82dc9d"
+        },
+        {
+          "time": 1,
+          "color": "#348571"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "terrain",
+    "actor": "basin",
+    "zoom": 1.6,
+    "bindings": {
+      "swamp-1": {
+        "y": 170
+      },
+      "swamp-2": {
+        "y": 170
+      }
+    }
+  }
+}

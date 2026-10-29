@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "critical-1",
+      "texture": "spark",
+      "seed": 40768,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.3,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 260,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.4
+        },
+        {
+          "time": 0.15,
+          "value": 1.3
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "critical-2",
+      "texture": "diamond",
+      "seed": 40785,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.65,
+      "speed": [
+        130,
+        330
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        3,
+        8
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 45
+        }
+      ],
+      "drag": 1,
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "critical-3",
+      "texture": "ring",
+      "seed": 40802,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.5,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 230,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.15
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0.9
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "combat",
+    "actor": "dummy",
+    "zoom": 1.8,
+    "bindings": {
+      "critical-1": {},
+      "critical-2": {},
+      "critical-3": {}
+    }
+  }
+}

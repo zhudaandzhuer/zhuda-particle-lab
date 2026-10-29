@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "fireworks-1",
+      "texture": "streak",
+      "seed": 81399,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        1.1,
+        1.6
+      ],
+      "speed": [
+        100,
+        230
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        5,
+        9
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 0.7,
+          "value": 0.85
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 0.7,
+          "value": 0.85
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 120
+        }
+      ],
+      "stretch": 5,
+      "alignToVelocity": true,
+      "drag": 1,
+      "acceleration": {
+        "x": 0,
+        "y": 70
+      }
+    },
+    {
+      "id": "fireworks-2",
+      "texture": "spark",
+      "seed": 81416,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        1.1,
+        1.6
+      ],
+      "speed": [
+        80,
+        210
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        5,
+        9
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 0.7,
+          "value": 0.85
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 0.7,
+          "value": 0.85
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff3f8"
+        },
+        {
+          "time": 0.5,
+          "color": "#ee9aca"
+        },
+        {
+          "time": 1,
+          "color": "#a458bc"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0.45,
+          "count": 100
+        }
+      ],
+      "drag": 1.2,
+      "acceleration": {
+        "x": 0,
+        "y": 80
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "reward",
+    "actor": "none",
+    "zoom": 1.4,
+    "bindings": {
+      "fireworks-1": {
+        "x": -120,
+        "y": -80
+      },
+      "fireworks-2": {
+        "x": 160,
+        "y": -130
+      }
+    }
+  }
+}

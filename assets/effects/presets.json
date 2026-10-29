@@ -1,0 +1,1166 @@
+{
+  "sprint": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "wake-left",
+        "texture": "streak",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 32,
+        "lifetime": [
+          0.22,
+          0.4
+        ],
+        "speed": [
+          65,
+          100
+        ],
+        "angle": [
+          1.4,
+          1.74
+        ],
+        "size": [
+          2,
+          4
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#ddfff6"
+          },
+          {
+            "time": 1,
+            "color": "#4dbab5"
+          }
+        ],
+        "stretch": 8,
+        "alignToVelocity": true
+      },
+      {
+        "id": "wake-right",
+        "texture": "streak",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 32,
+        "lifetime": [
+          0.22,
+          0.4
+        ],
+        "speed": [
+          65,
+          100
+        ],
+        "angle": [
+          1.4,
+          1.74
+        ],
+        "size": [
+          2,
+          4
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#ddfff6"
+          },
+          {
+            "time": 1,
+            "color": "#4dbab5"
+          }
+        ],
+        "stretch": 8,
+        "alignToVelocity": true
+      },
+      {
+        "id": "ground-dust",
+        "texture": "smoke",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "alpha",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 23,
+        "lifetime": [
+          0.4,
+          0.7
+        ],
+        "speed": [
+          25,
+          65
+        ],
+        "angle": [
+          0.9,
+          2.2
+        ],
+        "size": [
+          13,
+          22
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.4
+          },
+          {
+            "time": 1,
+            "value": 1.8
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.16
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#e3cda4"
+          },
+          {
+            "time": 1,
+            "color": "#a19486"
+          }
+        ],
+        "drag": 1.3,
+        "turbulence": {
+          "strength": 25,
+          "frequency": 6
+        }
+      },
+      {
+        "id": "ground-sparks",
+        "texture": "streak",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 18,
+        "lifetime": [
+          0.18,
+          0.45
+        ],
+        "speed": [
+          110,
+          220
+        ],
+        "angle": [
+          0.3,
+          2.8
+        ],
+        "size": [
+          1.5,
+          3
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#fff1c7"
+          },
+          {
+            "time": 0.4,
+            "color": "#ffc66a"
+          },
+          {
+            "time": 1,
+            "color": "#f87745"
+          }
+        ],
+        "stretch": 5,
+        "alignToVelocity": true,
+        "acceleration": {
+          "x": 0,
+          "y": 100
+        }
+      }
+    ]
+  },
+  "fire": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "flames",
+        "texture": "flame",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "box",
+          "width": 70,
+          "height": 12
+        },
+        "rate": 105,
+        "lifetime": [
+          0.5,
+          1.0
+        ],
+        "speed": [
+          60,
+          160
+        ],
+        "angle": [
+          -1.9,
+          -1.24
+        ],
+        "size": [
+          32,
+          64
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "time": 0.18,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0.12
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.1,
+            "value": 0.85
+          },
+          {
+            "time": 0.7,
+            "value": 0.65
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#fff3b4"
+          },
+          {
+            "time": 0.2,
+            "color": "#ffc256"
+          },
+          {
+            "time": 0.55,
+            "color": "#ff6028"
+          },
+          {
+            "time": 1,
+            "color": "#742a3b"
+          }
+        ],
+        "rotation": [
+          -0.35,
+          0.35
+        ],
+        "acceleration": {
+          "x": 0,
+          "y": -55
+        },
+        "turbulence": {
+          "strength": 95,
+          "frequency": 9
+        }
+      },
+      {
+        "id": "embers",
+        "texture": "glow",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 22,
+        "lifetime": [
+          0.8,
+          1.8
+        ],
+        "speed": [
+          50,
+          130
+        ],
+        "angle": [
+          -2,
+          -1.1
+        ],
+        "size": [
+          1.5,
+          4
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#ffe4a0"
+          },
+          {
+            "time": 1,
+            "color": "#e55c2d"
+          }
+        ],
+        "turbulence": {
+          "strength": 70,
+          "frequency": 5
+        }
+      },
+      {
+        "id": "heat-smoke",
+        "texture": "smoke",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "alpha",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 12,
+        "lifetime": [
+          1,
+          2
+        ],
+        "speed": [
+          35,
+          55
+        ],
+        "angle": [
+          -1.9,
+          -1.2
+        ],
+        "size": [
+          45,
+          75
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.7
+          },
+          {
+            "time": 1,
+            "value": 2
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.3,
+            "value": 0.12
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#6e737e"
+          },
+          {
+            "time": 1,
+            "color": "#48525f"
+          }
+        ]
+      }
+    ]
+  },
+  "smoke": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "smoke",
+        "texture": "smoke",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "alpha",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 24,
+        "lifetime": [
+          1.5,
+          2.5
+        ],
+        "speed": [
+          35,
+          65
+        ],
+        "angle": [
+          -1.8,
+          -1.3
+        ],
+        "size": [
+          40,
+          70
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.35
+          },
+          {
+            "time": 0.3,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 2
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.2,
+            "value": 0.28
+          },
+          {
+            "time": 0.65,
+            "value": 0.18
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#a8bbc5"
+          },
+          {
+            "time": 1,
+            "color": "#617783"
+          }
+        ],
+        "rotation": [
+          0,
+          6.283185307179586
+        ],
+        "angularVelocity": [
+          -0.5,
+          0.5
+        ],
+        "turbulence": {
+          "strength": 40,
+          "frequency": 3
+        }
+      }
+    ]
+  },
+  "explosion": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "flash",
+        "texture": "glow",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 0,
+        "lifetime": 0.25,
+        "speed": 0,
+        "angle": 0,
+        "size": 240,
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.1
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0.3
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#fff6d7"
+          },
+          {
+            "time": 1,
+            "color": "#ff9a48"
+          }
+        ],
+        "bursts": [
+          {
+            "time": 0,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "sparks",
+        "texture": "streak",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 0,
+        "lifetime": [
+          0.4,
+          1.2
+        ],
+        "speed": [
+          90,
+          440
+        ],
+        "angle": [
+          0,
+          6.283185307179586
+        ],
+        "size": [
+          2,
+          5
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#fff4d0"
+          },
+          {
+            "time": 0.5,
+            "color": "#ffbd4c"
+          },
+          {
+            "time": 1,
+            "color": "#e54b2b"
+          }
+        ],
+        "bursts": [
+          {
+            "time": 0,
+            "count": 100
+          }
+        ],
+        "drag": 1,
+        "stretch": 7,
+        "alignToVelocity": true,
+        "acceleration": {
+          "x": 0,
+          "y": 70
+        }
+      },
+      {
+        "id": "smoke",
+        "texture": "smoke",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "alpha",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 0,
+        "lifetime": [
+          1,
+          2.5
+        ],
+        "speed": [
+          25,
+          90
+        ],
+        "angle": [
+          0,
+          6.283185307179586
+        ],
+        "size": [
+          45,
+          70
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 1,
+            "value": 2.5
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.32
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#c8a886"
+          },
+          {
+            "time": 1,
+            "color": "#667685"
+          }
+        ],
+        "bursts": [
+          {
+            "time": 0.08,
+            "count": 20
+          }
+        ],
+        "drag": 1.2
+      }
+    ]
+  },
+  "snow": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "snow",
+        "texture": "snow",
+        "maxParticles": 1024,
+        "seed": 91827,
+        "space": "world",
+        "blend": "alpha",
+        "shape": {
+          "type": "box",
+          "width": 920,
+          "height": 5
+        },
+        "rate": 80,
+        "lifetime": [
+          3.4,
+          5
+        ],
+        "speed": [
+          100,
+          160
+        ],
+        "angle": [
+          1.13,
+          1.5
+        ],
+        "size": [
+          3,
+          9
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 1
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.1,
+            "value": 0.9
+          },
+          {
+            "time": 0.9,
+            "value": 0.8
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#edfbff"
+          },
+          {
+            "time": 1,
+            "color": "#b7dbe8"
+          }
+        ],
+        "rotation": [
+          0,
+          6.283185307179586
+        ],
+        "angularVelocity": [
+          -0.9,
+          0.9
+        ],
+        "turbulence": {
+          "strength": 23,
+          "frequency": 4
+        }
+      }
+    ]
+  },
+  "coins": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "coins",
+        "texture": "coin",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "alpha",
+        "shape": {
+          "type": "point"
+        },
+        "rate": 37,
+        "lifetime": [
+          1.3,
+          2
+        ],
+        "speed": [
+          200,
+          360
+        ],
+        "angle": [
+          -2.05,
+          -1.09
+        ],
+        "size": [
+          13,
+          22
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.6
+          },
+          {
+            "time": 0.15,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0.7
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.04,
+            "value": 1
+          },
+          {
+            "time": 0.8,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#fff4cc"
+          },
+          {
+            "time": 1,
+            "color": "#ffcf62"
+          }
+        ],
+        "angularVelocity": [
+          -7,
+          7
+        ],
+        "acceleration": {
+          "x": 0,
+          "y": 320
+        }
+      }
+    ]
+  },
+  "magic": {
+    "schemaVersion": 1,
+    "emitters": [
+      {
+        "id": "aura",
+        "texture": "glow",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "circle",
+          "radius": 92,
+          "edge": true
+        },
+        "rate": 75,
+        "lifetime": [
+          0.6,
+          1.4
+        ],
+        "speed": [
+          4,
+          20
+        ],
+        "angle": [
+          0,
+          6.283185307179586
+        ],
+        "size": [
+          3,
+          12
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#e8d6ff"
+          },
+          {
+            "time": 0.4,
+            "color": "#bb8eff"
+          },
+          {
+            "time": 1,
+            "color": "#54dcd8"
+          }
+        ],
+        "acceleration": {
+          "x": 0,
+          "y": -14
+        },
+        "turbulence": {
+          "strength": 18,
+          "frequency": 3
+        }
+      },
+      {
+        "id": "wisps",
+        "texture": "streak",
+        "maxParticles": 384,
+        "seed": 91827,
+        "space": "world",
+        "blend": "additive",
+        "shape": {
+          "type": "circle",
+          "radius": 88,
+          "edge": true
+        },
+        "rate": 18,
+        "lifetime": [
+          0.5,
+          1.2
+        ],
+        "speed": [
+          30,
+          55
+        ],
+        "angle": [
+          -1.9,
+          -1.2
+        ],
+        "size": [
+          2,
+          5
+        ],
+        "sizeOverLife": [
+          {
+            "time": 0,
+            "value": 0.3
+          },
+          {
+            "time": 0.2,
+            "value": 1
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "alphaOverLife": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 0.08,
+            "value": 0.8
+          },
+          {
+            "time": 0.65,
+            "value": 0.5
+          },
+          {
+            "time": 1,
+            "value": 0
+          }
+        ],
+        "colorOverLife": [
+          {
+            "time": 0,
+            "color": "#faf0ff"
+          },
+          {
+            "time": 1,
+            "color": "#ac75ea"
+          }
+        ],
+        "stretch": 6,
+        "alignToVelocity": true
+      }
+    ]
+  }
+}

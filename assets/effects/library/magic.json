@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "aura",
+      "texture": "glow",
+      "maxParticles": 384,
+      "seed": 91827,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "circle",
+        "radius": 92,
+        "edge": true
+      },
+      "rate": 75,
+      "lifetime": [
+        0.6,
+        1.4
+      ],
+      "speed": [
+        4,
+        20
+      ],
+      "angle": [
+        0,
+        6.283185307179586
+      ],
+      "size": [
+        3,
+        12
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.2,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.8
+        },
+        {
+          "time": 0.65,
+          "value": 0.5
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#e8d6ff"
+        },
+        {
+          "time": 0.4,
+          "color": "#bb8eff"
+        },
+        {
+          "time": 1,
+          "color": "#54dcd8"
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": -14
+      },
+      "turbulence": {
+        "strength": 18,
+        "frequency": 3
+      }
+    },
+    {
+      "id": "wisps",
+      "texture": "streak",
+      "maxParticles": 384,
+      "seed": 91827,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "circle",
+        "radius": 88,
+        "edge": true
+      },
+      "rate": 18,
+      "lifetime": [
+        0.5,
+        1.2
+      ],
+      "speed": [
+        30,
+        55
+      ],
+      "angle": [
+        -1.9,
+        -1.2
+      ],
+      "size": [
+        2,
+        5
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.2,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.8
+        },
+        {
+          "time": 0.65,
+          "value": 0.5
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#faf0ff"
+        },
+        {
+          "time": 1,
+          "color": "#ac75ea"
+        }
+      ],
+      "stretch": 6,
+      "alignToVelocity": true
+    }
+  ]
+}

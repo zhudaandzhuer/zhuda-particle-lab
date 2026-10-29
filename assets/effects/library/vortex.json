@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "vortex-1",
+      "texture": "arc",
+      "seed": 56624,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 5,
+      "lifetime": 0.7,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        130,
+        190
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ],
+      "angularVelocity": 3,
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "vortex-2",
+      "texture": "glow",
+      "seed": 56641,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 110,
+      "lifetime": 1.1,
+      "speed": [
+        90,
+        140
+      ],
+      "angle": [
+        -0.2,
+        0.2
+      ],
+      "size": [
+        3,
+        8
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ]
+    },
+    {
+      "id": "vortex-3",
+      "texture": "smoke",
+      "seed": 56658,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 15,
+      "lifetime": 1.2,
+      "speed": [
+        35,
+        55
+      ],
+      "angle": [
+        -0.1,
+        0.1
+      ],
+      "size": [
+        45,
+        75
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "magic",
+    "actor": "orb",
+    "zoom": 1.6,
+    "bindings": {
+      "vortex-1": {},
+      "vortex-2": {
+        "motion": "orbit",
+        "radius": 175,
+        "frequency": 2,
+        "heading": "inward"
+      },
+      "vortex-3": {
+        "motion": "orbit",
+        "radius": 110,
+        "frequency": 1,
+        "heading": "inward"
+      }
+    }
+  }
+}

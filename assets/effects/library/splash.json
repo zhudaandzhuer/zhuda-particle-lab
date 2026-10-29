@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "splash-1",
+      "texture": "drop",
+      "seed": 22930,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        0.6,
+        1.2
+      ],
+      "speed": [
+        100,
+        250
+      ],
+      "angle": [
+        -2.8,
+        -0.35
+      ],
+      "size": [
+        4,
+        10
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 90
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": 330
+      },
+      "alignToVelocity": true
+    },
+    {
+      "id": "splash-2",
+      "texture": "ripple",
+      "seed": 22947,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 1.3,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 220,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.15
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0.9
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ],
+      "stretch": 2.8
+    },
+    {
+      "id": "splash-3",
+      "texture": "smoke",
+      "seed": 22964,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 1,
+      "speed": [
+        20,
+        70
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        35,
+        60
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.22
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 14
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "water",
+    "actor": "basin",
+    "zoom": 1.35,
+    "bindings": {
+      "splash-1": {
+        "y": 80
+      },
+      "splash-2": {
+        "y": 90
+      },
+      "splash-3": {
+        "y": 70
+      }
+    }
+  }
+}

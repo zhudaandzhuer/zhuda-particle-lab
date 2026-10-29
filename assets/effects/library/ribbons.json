@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "ribbons-1",
+      "texture": "paper",
+      "seed": 86354,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 850,
+        "height": 20
+      },
+      "rate": 22,
+      "lifetime": 3,
+      "speed": [
+        50,
+        90
+      ],
+      "angle": [
+        1.2,
+        1.9
+      ],
+      "size": [
+        18,
+        40
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff3f8"
+        },
+        {
+          "time": 0.5,
+          "color": "#ee9aca"
+        },
+        {
+          "time": 1,
+          "color": "#a458bc"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -3,
+        3
+      ],
+      "stretch": 0.45
+    },
+    {
+      "id": "ribbons-2",
+      "texture": "confetti",
+      "seed": 86371,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 850,
+        "height": 20
+      },
+      "rate": 25,
+      "lifetime": 3.2,
+      "speed": [
+        65,
+        100
+      ],
+      "angle": [
+        1.3,
+        1.8
+      ],
+      "size": [
+        6,
+        13
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -4,
+        4
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "reward",
+    "actor": "none",
+    "zoom": 1.4,
+    "bindings": {
+      "ribbons-1": {
+        "y": -300
+      },
+      "ribbons-2": {
+        "y": -300
+      }
+    }
+  }
+}

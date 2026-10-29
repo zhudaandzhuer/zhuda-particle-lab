@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "ripples-1",
+      "texture": "ripple",
+      "seed": 21939,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 700,
+        "height": 300
+      },
+      "rate": 24,
+      "lifetime": [
+        0.6,
+        1.1
+      ],
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        20,
+        50
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.05
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "stretch": 2.7
+    },
+    {
+      "id": "ripples-2",
+      "texture": "drop",
+      "seed": 21956,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 700,
+        "height": 300
+      },
+      "rate": 20,
+      "lifetime": 0.25,
+      "speed": [
+        8,
+        25
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        2,
+        4
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "water",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "ripples-1": {},
+      "ripples-2": {}
+    }
+  }
+}

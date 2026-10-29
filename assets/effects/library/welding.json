@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "welding-1",
+      "texture": "spark",
+      "seed": 16984,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 130,
+      "lifetime": [
+        0.25,
+        0.7
+      ],
+      "speed": [
+        90,
+        280
+      ],
+      "angle": [
+        -0.7,
+        2
+      ],
+      "size": [
+        2,
+        5
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "stretch": 4,
+      "acceleration": {
+        "x": 0,
+        "y": 280
+      },
+      "alignToVelocity": true
+    },
+    {
+      "id": "welding-2",
+      "texture": "glow",
+      "seed": 17001,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 35,
+      "lifetime": 0.1,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        20,
+        38
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ]
+    },
+    {
+      "id": "welding-3",
+      "texture": "smoke",
+      "seed": 17018,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 8,
+      "lifetime": 0.9,
+      "speed": [
+        35,
+        60
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        18,
+        28
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.28
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#cfdbdf"
+        },
+        {
+          "time": 0.5,
+          "color": "#8a9ba5"
+        },
+        {
+          "time": 1,
+          "color": "#4d6274"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "fire",
+    "actor": "workbench",
+    "zoom": 1.8,
+    "bindings": {
+      "welding-1": {
+        "x": -140,
+        "y": -25,
+        "motion": "sweep",
+        "radius": 140,
+        "frequency": 0.7
+      },
+      "welding-2": {
+        "x": -140,
+        "y": -25,
+        "motion": "sweep",
+        "radius": 140,
+        "frequency": 0.7
+      },
+      "welding-3": {
+        "y": -20
+      }
+    }
+  }
+}

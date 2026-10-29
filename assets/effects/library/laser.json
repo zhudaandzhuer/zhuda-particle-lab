@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "laser-1",
+      "texture": "beam",
+      "seed": 62570,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.15,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 24,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffd6bf"
+        },
+        {
+          "time": 0.5,
+          "color": "#fa7558"
+        },
+        {
+          "time": 1,
+          "color": "#9b3042"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        },
+        {
+          "time": 0.6,
+          "count": 1
+        },
+        {
+          "time": 1.2,
+          "count": 1
+        },
+        {
+          "time": 1.8,
+          "count": 1
+        },
+        {
+          "time": 2.4,
+          "count": 1
+        }
+      ],
+      "stretch": 25
+    },
+    {
+      "id": "laser-2",
+      "texture": "spark",
+      "seed": 62587,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.3,
+      "speed": [
+        70,
+        140
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        2,
+        4
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 15
+        },
+        {
+          "time": 0.6,
+          "count": 15
+        },
+        {
+          "time": 1.2,
+          "count": 15
+        },
+        {
+          "time": 1.8,
+          "count": 15
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "tech",
+    "actor": "pipe",
+    "zoom": 1.4,
+    "bindings": {
+      "laser-1": {},
+      "laser-2": {
+        "x": 280
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "rain-1",
+      "texture": "streak",
+      "seed": 1128,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 850,
+        "height": 20
+      },
+      "rate": 170,
+      "lifetime": [
+        1.2,
+        1.7
+      ],
+      "speed": [
+        380,
+        500
+      ],
+      "angle": [
+        1.53,
+        1.59
+      ],
+      "size": [
+        1,
+        2
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "rotation": 0,
+      "angularVelocity": [
+        -1,
+        1
+      ],
+      "stretch": 14,
+      "alignToVelocity": true
+    },
+    {
+      "id": "rain-2",
+      "texture": "ripple",
+      "seed": 1145,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 800,
+        "height": 60
+      },
+      "rate": 14,
+      "lifetime": 0.5,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        16,
+        30
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.2
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "stretch": 4
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "weather",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "rain-1": {
+        "y": -300
+      },
+      "rain-2": {
+        "y": 220
+      }
+    }
+  }
+}

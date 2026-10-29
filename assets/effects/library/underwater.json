@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "underwater-1",
+      "texture": "glow",
+      "seed": 24912,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 850,
+        "height": 480
+      },
+      "rate": 75,
+      "lifetime": [
+        2,
+        3.5
+      ],
+      "speed": [
+        3,
+        12
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        3,
+        7
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "turbulence": {
+        "strength": 5,
+        "frequency": 2
+      }
+    },
+    {
+      "id": "underwater-2",
+      "texture": "bubble",
+      "seed": 24929,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 800,
+        "height": 20
+      },
+      "rate": 8,
+      "lifetime": 3,
+      "speed": [
+        30,
+        55
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        5,
+        17
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "water",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "underwater-1": {},
+      "underwater-2": {
+        "y": 260
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "dimension": 3,
+  "emitters": [
+    {
+      "id": "fire3d-1",
+      "texture": "flame",
+      "seed": 97255,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.35
+      },
+      "rate": 65,
+      "lifetime": [
+        0.4,
+        0.9
+      ],
+      "speed": [
+        1,
+        2
+      ],
+      "size": [
+        0.3,
+        0.6
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff8cd"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffad42"
+        },
+        {
+          "time": 1,
+          "color": "#c23e22"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 0.2,
+      "turbulence": {
+        "strength": 0.5,
+        "frequency": 4
+      }
+    },
+    {
+      "id": "fire3d-2",
+      "texture": "smoke",
+      "seed": 97272,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 18,
+      "lifetime": [
+        1.2,
+        2.3
+      ],
+      "speed": [
+        0.6,
+        1
+      ],
+      "size": [
+        0.5,
+        0.8
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 1,
+          "value": 2.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.25
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#cfdbdf"
+        },
+        {
+          "time": 0.5,
+          "color": "#8a9ba5"
+        },
+        {
+          "time": 1,
+          "color": "#4d6274"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 0.3
+    },
+    {
+      "id": "fire3d-3",
+      "texture": "glow",
+      "seed": 97289,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 18,
+      "lifetime": 1.2,
+      "speed": [
+        2,
+        3
+      ],
+      "size": [
+        0.02,
+        0.05
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 0.4
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "motion",
+    "actor": "logs",
+    "zoom": 1,
+    "bindings": {
+      "fire3d-1": {
+        "y": 0.4
+      },
+      "fire3d-2": {
+        "y": 1.2
+      },
+      "fire3d-3": {
+        "y": 0.5
+      }
+    }
+  }
+}

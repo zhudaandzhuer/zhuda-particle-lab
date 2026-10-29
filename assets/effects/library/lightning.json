@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "lightning-1",
+      "texture": "bolt",
+      "seed": 54642,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.16,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 330,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 2
+        },
+        {
+          "time": 0.3,
+          "count": 1
+        },
+        {
+          "time": 1.2,
+          "count": 2
+        },
+        {
+          "time": 2.4,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning-2",
+      "texture": "spark",
+      "seed": 54659,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.5,
+      "speed": [
+        70,
+        250
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        2,
+        6
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 45
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": 170
+      }
+    },
+    {
+      "id": "lightning-3",
+      "texture": "ring",
+      "seed": 54676,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.6,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 190,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.15
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0.9
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 1
+        }
+      ],
+      "stretch": 2
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "magic",
+    "actor": "dummy",
+    "zoom": 1.6,
+    "bindings": {
+      "lightning-1": {
+        "y": -100
+      },
+      "lightning-2": {
+        "y": 65
+      },
+      "lightning-3": {
+        "y": 80
+      }
+    }
+  }
+}

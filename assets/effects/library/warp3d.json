@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "dimension": 3,
+  "emitters": [
+    {
+      "id": "warp3d-1",
+      "texture": "streak",
+      "seed": 92300,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 9,
+        "height": 5,
+        "depth": 18
+      },
+      "rate": 240,
+      "lifetime": 0.9,
+      "speed": [
+        12,
+        22
+      ],
+      "size": [
+        0.04,
+        0.1
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "spread": 0.02,
+      "billboard": "velocity",
+      "stretch": 14
+    },
+    {
+      "id": "warp3d-2",
+      "texture": "ring",
+      "seed": 92317,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 2,
+      "lifetime": 1.2,
+      "speed": 5,
+      "size": 5,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.2
+        },
+        {
+          "time": 1,
+          "value": 1.5
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "spread": 0
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "motion",
+    "actor": "tunnel",
+    "zoom": 1,
+    "bindings": {
+      "warp3d-1": {
+        "z": -9,
+        "y": 2
+      },
+      "warp3d-2": {
+        "z": -5,
+        "y": 2
+      }
+    }
+  }
+}

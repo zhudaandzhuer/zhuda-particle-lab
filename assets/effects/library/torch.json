@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "torch-1",
+      "texture": "flame",
+      "seed": 15002,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 65,
+      "lifetime": [
+        0.3,
+        0.65
+      ],
+      "speed": [
+        65,
+        110
+      ],
+      "angle": [
+        -1.8,
+        -1.3
+      ],
+      "size": [
+        22,
+        40
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff8cd"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffad42"
+        },
+        {
+          "time": 1,
+          "color": "#c23e22"
+        }
+      ],
+      "acceleration": {
+        "x": 15,
+        "y": -40
+      }
+    },
+    {
+      "id": "torch-2",
+      "texture": "smoke",
+      "seed": 15019,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 8,
+      "lifetime": [
+        0.8,
+        1.5
+      ],
+      "speed": [
+        30,
+        65
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        20,
+        35
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.28
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#cfdbdf"
+        },
+        {
+          "time": 0.5,
+          "color": "#8a9ba5"
+        },
+        {
+          "time": 1,
+          "color": "#4d6274"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    },
+    {
+      "id": "torch-3",
+      "texture": "glow",
+      "seed": 15036,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 9,
+      "lifetime": [
+        0.55,
+        1.2
+      ],
+      "speed": [
+        80,
+        130
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        1,
+        3
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "fire",
+    "actor": "torch",
+    "zoom": 1.8,
+    "bindings": {
+      "torch-1": {
+        "x": -25,
+        "y": -60
+      },
+      "torch-2": {
+        "x": -25,
+        "y": -90
+      },
+      "torch-3": {
+        "x": -25,
+        "y": -70
+      }
+    }
+  }
+}

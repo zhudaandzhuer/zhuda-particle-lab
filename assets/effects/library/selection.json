@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "selection-1",
+      "texture": "ring",
+      "seed": 75453,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 1.4,
+      "lifetime": 1.2,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 170,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.9
+        },
+        {
+          "time": 0.5,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.9
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ]
+    },
+    {
+      "id": "selection-2",
+      "texture": "glow",
+      "seed": 75470,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 65,
+      "lifetime": 0.15,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        3,
+        5
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ]
+    },
+    {
+      "id": "selection-3",
+      "texture": "triangle",
+      "seed": 75487,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 8,
+      "lifetime": 0.1,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 22,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "ui",
+    "actor": "item",
+    "zoom": 1.6,
+    "bindings": {
+      "selection-1": {},
+      "selection-2": {
+        "motion": "orbit",
+        "radius": 84,
+        "frequency": 1.2
+      },
+      "selection-3": {
+        "y": -106,
+        "motion": "sway",
+        "radius": 3,
+        "frequency": 2
+      }
+    }
+  }
+}

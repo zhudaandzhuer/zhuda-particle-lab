@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "waterjet-1",
+      "texture": "streak",
+      "seed": 28876,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 150,
+      "lifetime": [
+        0.9,
+        1.2
+      ],
+      "speed": [
+        340,
+        440
+      ],
+      "angle": [
+        -0.08,
+        0.08
+      ],
+      "size": [
+        2,
+        5
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "stretch": 8,
+      "acceleration": {
+        "x": 0,
+        "y": 90
+      },
+      "alignToVelocity": true
+    },
+    {
+      "id": "waterjet-2",
+      "texture": "drop",
+      "seed": 28893,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 25,
+      "lifetime": 0.5,
+      "speed": [
+        50,
+        140
+      ],
+      "angle": [
+        -2.7,
+        -0.3
+      ],
+      "size": [
+        3,
+        7
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": 200
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "water",
+    "actor": "pipe",
+    "zoom": 1.35,
+    "bindings": {
+      "waterjet-1": {
+        "x": -210,
+        "y": 0
+      },
+      "waterjet-2": {
+        "x": 280,
+        "y": 70
+      }
+    }
+  }
+}

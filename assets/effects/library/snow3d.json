@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "dimension": 3,
+  "emitters": [
+    {
+      "id": "snow3d-1",
+      "texture": "snowflake",
+      "seed": 96264,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 10,
+        "height": 1,
+        "depth": 8
+      },
+      "rate": 110,
+      "lifetime": [
+        2,
+        3.5
+      ],
+      "speed": [
+        1,
+        2
+      ],
+      "size": [
+        0.04,
+        0.16
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "spread": 0.16,
+      "turbulence": {
+        "strength": 0.4,
+        "frequency": 3
+      },
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -1,
+        1
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "motion",
+    "actor": "pines",
+    "zoom": 1,
+    "bindings": {
+      "snow3d-1": {
+        "y": 5.2
+      }
+    }
+  }
+}

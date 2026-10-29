@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "poison-1",
+      "texture": "bubble",
+      "seed": 57615,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "circle",
+        "radius": 65
+      },
+      "rate": 22,
+      "lifetime": 1.3,
+      "speed": [
+        25,
+        55
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        10,
+        24
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#e2ffca"
+        },
+        {
+          "time": 0.5,
+          "color": "#82dc9d"
+        },
+        {
+          "time": 1,
+          "color": "#348571"
+        }
+      ]
+    },
+    {
+      "id": "poison-2",
+      "texture": "smoke",
+      "seed": 57632,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "circle",
+        "radius": 55
+      },
+      "rate": 20,
+      "lifetime": 1.4,
+      "speed": [
+        30,
+        65
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        45,
+        65
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.28
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#c3e68b"
+        },
+        {
+          "time": 1,
+          "color": "#6c8e59"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    },
+    {
+      "id": "poison-3",
+      "texture": "glow",
+      "seed": 57649,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 30,
+      "lifetime": [
+        0.55,
+        1.2
+      ],
+      "speed": [
+        20,
+        55
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        3,
+        7
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#e2ffca"
+        },
+        {
+          "time": 0.5,
+          "color": "#82dc9d"
+        },
+        {
+          "time": 1,
+          "color": "#348571"
+        }
+      ],
+      "turbulence": {
+        "strength": 35,
+        "frequency": 4
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "magic",
+    "actor": "dummy",
+    "zoom": 1.6,
+    "bindings": {
+      "poison-1": {},
+      "poison-2": {
+        "y": 80
+      },
+      "poison-3": {}
+    }
+  }
+}

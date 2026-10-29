@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "fireflies-1",
+      "texture": "glow",
+      "seed": 8065,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 760,
+        "height": 340
+      },
+      "rate": 35,
+      "lifetime": [
+        1.3,
+        2.5
+      ],
+      "speed": [
+        5,
+        15
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        6,
+        11
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.9
+        },
+        {
+          "time": 0.5,
+          "value": 0.15
+        },
+        {
+          "time": 0.75,
+          "value": 0.8
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#e2ffca"
+        },
+        {
+          "time": 0.5,
+          "color": "#82dc9d"
+        },
+        {
+          "time": 1,
+          "color": "#348571"
+        }
+      ],
+      "turbulence": {
+        "strength": 16,
+        "frequency": 5
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "weather",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "fireflies-1": {}
+    }
+  }
+}

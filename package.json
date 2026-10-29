@@ -1,0 +1,28 @@
+{
+  "name": "zhuda-particle-lab",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/server.mjs",
+    "verify": "node tests/verify-catalog-browser.mjs && node tests/verify-browser.mjs && node tests/verify-racing-browser.mjs",
+    "verify:3d": "node tests/verify-racing-browser.mjs",
+    "record:3d": "node scripts/record-racing.mjs",
+    "catalog:generate": "node scripts/generate-library.mjs",
+    "verify:catalog": "node tests/verify-catalog-browser.mjs",
+    "catalog:gallery": "python3 scripts/catalog-contact-sheet.py",
+    "record:showcase": "node scripts/record-showcase.mjs",
+    "verify:publication": "node tests/verify-publication-browser.mjs"
+  },
+  "dependencies": {
+    "zhuda-laya-engine": "file:../Zhuda-LayaAir"
+  },
+  "description": "100 practical 2D and 3D WebGL particle effects powered by zhuda-laya-engine",
+  "license": "MIT",
+  "homepage": "https://zhudaandzhuer.github.io/zhuda-particle-lab/showcase.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhudaandzhuer/zhuda-particle-lab.git"
+  }
+}

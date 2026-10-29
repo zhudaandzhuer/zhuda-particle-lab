@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "avalanche-1",
+      "texture": "snowflake",
+      "seed": 34822,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        0.8,
+        1.5
+      ],
+      "speed": [
+        100,
+        220
+      ],
+      "angle": [
+        0.5,
+        2.2
+      ],
+      "size": [
+        5,
+        18
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 100
+        }
+      ],
+      "acceleration": {
+        "x": 70,
+        "y": 180
+      },
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -4,
+        4
+      ]
+    },
+    {
+      "id": "avalanche-2",
+      "texture": "smoke",
+      "seed": 34839,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 1.4,
+      "speed": [
+        30,
+        100
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        50,
+        100
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.4
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 22
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "terrain",
+    "actor": "rock",
+    "zoom": 1.6,
+    "bindings": {
+      "avalanche-1": {
+        "y": -80
+      },
+      "avalanche-2": {}
+    }
+  }
+}

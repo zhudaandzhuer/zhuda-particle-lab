@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "feathers-1",
+      "texture": "feather",
+      "seed": 37795,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": [
+        1.4,
+        2.5
+      ],
+      "speed": [
+        40,
+        130
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        12,
+        29
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 35
+        }
+      ],
+      "acceleration": {
+        "x": 14,
+        "y": 45
+      },
+      "drag": 0.8,
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -2,
+        2
+      ],
+      "turbulence": {
+        "strength": 30,
+        "frequency": 3
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "terrain",
+    "actor": "none",
+    "zoom": 1.6,
+    "bindings": {
+      "feathers-1": {}
+    }
+  }
+}

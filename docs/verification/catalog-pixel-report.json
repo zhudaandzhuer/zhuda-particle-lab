@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "snow",
+    "changedPixels": 4220,
+    "imagePixels": 729240,
+    "bbox": [
+      38,
+      126,
+      1027,
+      609
+    ]
+  },
+  {
+    "id": "rain",
+    "changedPixels": 4291,
+    "imagePixels": 729240,
+    "bbox": [
+      67,
+      31,
+      981,
+      695
+    ]
+  },
+  {
+    "id": "storm",
+    "changedPixels": 91786,
+    "imagePixels": 729240,
+    "bbox": [
+      6,
+      20,
+      1024,
+      708
+    ]
+  },
+  {
+    "id": "hail",
+    "changedPixels": 3843,
+    "imagePixels": 729240,
+    "bbox": [
+      0,
+      23,
+      956,
+      707
+    ]
+  },
+  {
+    "id": "blizzard",
+    "changedPixels": 116548,
+    "imagePixels": 729240,
+    "bbox": [
+      0,
+      0,
+      629,
+      708
+    ]
+  },
+  {
+    "id": "leaves",
+    "changedPixels": 7433,
+    "imagePixels": 729240,
+    "bbox": [
+      22,
+      0,
+      1030,
+      524
+    ]
+  },
+  {
+    "id": "petals",
+    "changedPixels": 6029,
+    "imagePixels": 729240,
+    "bbox": [
+      60,
+      12,
+      1006,
+      619
+    ]
+  },
+  {
+    "id": "sandstorm",
+    "changedPixels": 244997,
+    "imagePixels": 729240,
+    "bbox": [
+      0,
+      0,
+      844,
+      700
+    ]
+  },
+  {
+    "id": "fireflies",
+    "changedPixels": 1570,
+    "imagePixels": 729240,
+    "bbox": [
+      115,
+      173,
+      923,
+      534
+    ]
+  },
+  {
+    "id": "pollen",
+    "changedPixels": 1755,
+    "imagePixels": 729240,
+    "bbox": [
+      186,
+      138,
+      882,
+      568
+    ]
+  },
+  {
+    "id": "fire",
+    "changedPixels": 28521,
+    "imagePixels": 729240,
+    "bbox": [
+      424,
+      192,
+      612,
+      483
+    ]
+  },
+  {
+    "id": "smoke",
+    "changedPixels": 31553,
+    "imagePixels": 729240,
+    "bbox": [
+      426,
+      236,
+      609,
+      461
+    ]
+  },
+  {
+    "id": "explosion",
+    "changedPixels": 10087,
+    "imagePixels": 729240,
+    "bbox": [
+      20,
+      285,
+      697,
+      693
+    ]
+  },
+  {
+    "id": "campfire",
+    "changedPixels": 35429,
+    "imagePixels": 729240,
+    "bbox": [
+      433,
+      84,
+      600,
+      481
+    ]
+  },
+  {
+    "id": "candle",
+    "changedPixels": 779,
+    "imagePixels": 729240,
+    "bbox": [
+      495,
+      202,
+      525,
+      268
+    ]
+  },
+  {
+    "id": "torch",
+    "changedPixels": 7933,
+    "imagePixels": 729240,
+    "bbox": [
+      437,
+      0,
+      517,
+      182
+    ]
+  },
+  {
+    "id": "chimney",
+    "changedPixels": 18481,
+    "imagePixels": 729240,
+    "bbox": [
+      456,
+      0,
+      614,
+      183
+    ]
+  },
+  {
+    "id": "welding",
+    "changedPixels": 5569,
+    "imagePixels": 729240,
+    "bbox": [
+      413,
+      140,
+      706,
+      557
+    ]
+  },
+  {
+    "id": "lava",
+    "changedPixels": 47119,
+    "imagePixels": 729240,
+    "bbox": [
+      312,
+      245,
+      729,
+      557
+    ]
+  },
+  {
+    "id": "steam",
+    "changedPixels": 17467,
+    "imagePixels": 729240,
+    "bbox": [
+      453,
+      193,
+      571,
+      442
+    ]
+  },
+  {
+    "id": "fountain",
+    "changedPixels": 16890,
+    "imagePixels": 729240,
+    "bbox": [
+      259,
+      292,
+      761,
+      578
+    ]
+  },
+  {
+    "id": "waterfall",
+    "changedPixels": 21897,
+    "imagePixels": 729240,
+    "bbox": [
+      377,
+      0,
+      654,
+      708
+    ]
+  },
+  {
+    "id": "ripples",
+    "changedPixels": 12477,
+    "imagePixels": 729240,
+    "bbox": [
+      173,
+      171,
+      895,
+      518
+    ]
+  },
+  {
+    "id": "splash",
+    "changedPixels": 14469,
+    "imagePixels": 729240,
+    "bbox": [
+      363,
+      308,
+      667,
+      456
+    ]
+  },
+  {
+    "id": "bubbles",
+    "changedPixels": 5978,
+    "imagePixels": 729240,
+    "bbox": [
+      422,
+      312,
+      641,
+      543
+    ]
+  },
+  {
+    "id": "underwater",
+    "changedPixels": 2171,
+    "imagePixels": 729240,
+    "bbox": [
+      66,
+      88,
+      956,
+      636
+    ]
+  },
+  {
+    "id": "geyser",
+    "changedPixels": 33108,
+    "imagePixels": 729240,
+    "bbox": [
+      284,
+      307,
+      746,
+      631
+    ]
+  },
+  {
+    "id": "foam",
+    "changedPixels": 10954,
+    "imagePixels": 729240,
+    "bbox": [
+      86,
+      456,
+      997,
+      536
+    ]
+  },
+  {
+    "id": "sprinkler",
+    "changedPixels": 2038,
+    "imagePixels": 729240,
+    "bbox": [
+      430,
+      388,
+      759,
+      702
+    ]
+  },
+  {
+    "id": "waterjet",
+    "changedPixels": 3060,
+    "imagePixels": 729240,
+    "bbox": [
+      217,
+      346,
+      958,
+      456
+    ]
+  },
+  {
+    "id": "footdust",
+    "changedPixels": 4277,
+    "imagePixels": 729240,
+    "bbox": [
+      758,
+      477,
+      847,
+      555
+    ]
+  },
+  {
+    "id": "landing",
+    "changedPixels": 105924,
+    "imagePixels": 729240,
+    "bbox": [
+      7,
+      425,
+      1022,
+      678
+    ]
+  },
+  {
+    "id": "rockbreak",
+    "changedPixels": 31448,
+    "imagePixels": 729240,
+    "bbox": [
+      355,
+      185,
+      669,
+      477
+    ]
+  },
+  {
+    "id": "digging",
+    "changedPixels": 4018,
+    "imagePixels": 729240,
+    "bbox": [
+      400,
+      440,
+      548,
+      542
+    ]
+  },
+  {
+    "id": "quarry",
+    "changedPixels": 23168,
+    "imagePixels": 729240,
+    "bbox": [
+      102,
+      0,
+      724,
+      698
+    ]
+  },
+  {
+    "id": "avalanche",
+    "changedPixels": 33489,
+    "imagePixels": 729240,
+    "bbox": [
+      418,
+      173,
+      646,
+      396
+    ]
+  },
+  {
+    "id": "swamp",
+    "changedPixels": 101839,
+    "imagePixels": 729240,
+    "bbox": [
+      146,
+      364,
+      950,
+      560
+    ]
+  },
+  {
+    "id": "spores",
+    "changedPixels": 1241,
+    "imagePixels": 729240,
+    "bbox": [
+      418,
+      291,
+      610,
+      522
+    ]
+  },
+  {
+    "id": "feathers",
+    "changedPixels": 9291,
+    "imagePixels": 729240,
+    "bbox": [
+      418,
+      267,
+      617,
+      482
+    ]
+  },
+  {
+    "id": "grasscut",
+    "changedPixels": 4311,
+    "imagePixels": 729240,
+    "bbox": [
+      488,
+      432,
+      549,
+      556
+    ]
+  },
+  {
+    "id": "slash",
+    "changedPixels": 62945,
+    "imagePixels": 729240,
+    "bbox": [
+      281,
+      137,
+      749,
+      478
+    ]
+  },
+  {
+    "id": "critical",
+    "changedPixels": 96729,
+    "imagePixels": 729240,
+    "bbox": [
+      339,
+      179,
+      691,
+      530
+    ]
+  },
+  {
+    "id": "bullet",
+    "changedPixels": 4549,
+    "imagePixels": 729240,
+    "bbox": [
+      410,
+      250,
+      600,
+      379
+    ]
+  },
+  {
+    "id": "ricochet",
+    "changedPixels": 3779,
+    "imagePixels": 729240,
+    "bbox": [
+      495,
+      245,
+      643,
+      373
+    ]
+  },
+  {
+    "id": "muzzle",
+    "changedPixels": 1935,
+    "imagePixels": 729240,
+    "bbox": [
+      197,
+      330,
+      380,
+      377
+    ]
+  },
+  {
+    "id": "arrow",
+    "changedPixels": 1315,
+    "imagePixels": 729240,
+    "bbox": [
+      0,
+      288,
+      1029,
+      334
+    ]
+  },
+  {
+    "id": "hit",
+    "changedPixels": 3756,
+    "imagePixels": 729240,
+    "bbox": [
+      459,
+      289,
+      570,
+      385
+    ]
+  },
+  {
+    "id": "block",
+    "changedPixels": 49914,
+    "imagePixels": 729240,
+    "bbox": [
+      395,
+      210,
+      634,
+      507
+    ]
+  },
+  {
+    "id": "icebreak",
+    "changedPixels": 31681,
+    "imagePixels": 729240,
+    "bbox": [
+      381,
+      225,
+      652,
+      500
+    ]
+  },
+  {
+    "id": "fireball",
+    "changedPixels": 26701,
+    "imagePixels": 729240,
+    "bbox": [
+      346,
+      217,
+      689,
+      528
+    ]
+  },
+  {
+    "id": "magic",
+    "changedPixels": 8897,
+    "imagePixels": 729240,
+    "bbox": [
+      329,
+      269,
+      686,
+      619
+    ]
+  },
+  {
+    "id": "healing",
+    "changedPixels": 32822,
+    "imagePixels": 729240,
+    "bbox": [
+      305,
+      318,
+      725,
+      699
+    ]
+  },
+  {
+    "id": "mana",
+    "changedPixels": 6153,
+    "imagePixels": 729240,
+    "bbox": [
+      321,
+      320,
+      550,
+      515
+    ]
+  },
+  {
+    "id": "portal",
+    "changedPixels": 40346,
+    "imagePixels": 729240,
+    "bbox": [
+      337,
+      140,
+      671,
+      518
+    ]
+  },
+  {
+    "id": "summon",
+    "changedPixels": 138786,
+    "imagePixels": 729240,
+    "bbox": [
+      205,
+      304,
+      825,
+      697
+    ]
+  },
+  {
+    "id": "lightning",
+    "changedPixels": 59974,
+    "imagePixels": 729240,
+    "bbox": [
+      387,
+      48,
+      643,
+      541
+    ]
+  },
+  {
+    "id": "frost",
+    "changedPixels": 33376,
+    "imagePixels": 729240,
+    "bbox": [
+      401,
+      240,
+      628,
+      467
+    ]
+  },
+  {
+    "id": "vortex",
+    "changedPixels": 32591,
+    "imagePixels": 729240,
+    "bbox": [
+      237,
+      225,
+      609,
+      570
+    ]
+  },
+  {
+    "id": "poison",
+    "changedPixels": 31898,
+    "imagePixels": 729240,
+    "bbox": [
+      407,
+      224,
+      627,
+      543
+    ]
+  },
+  {
+    "id": "holy",
+    "changedPixels": 128987,
+    "imagePixels": 729240,
+    "bbox": [
+      84,
+      0,
+      946,
+      708
+    ]
+  },
+  {
+    "id": "electric",
+    "changedPixels": 4573,
+    "imagePixels": 729240,
+    "bbox": [
+      472,
+      314,
+      583,
+      438
+    ]
+  },
+  {
+    "id": "reactor",
+    "changedPixels": 8988,
+    "imagePixels": 729240,
+    "bbox": [
+      415,
+      251,
+      641,
+      472
+    ]
+  },
+  {
+    "id": "plasma",
+    "changedPixels": 19458,
+    "imagePixels": 729240,
+    "bbox": [
+      127,
+      335,
+      925,
+      371
+    ]
+  },
+  {
+    "id": "laser",
+    "changedPixels": 9528,
+    "imagePixels": 729240,
+    "bbox": [
+      255,
+      338,
+      952,
+      372
+    ]
+  },
+  {
+    "id": "scan",
+    "changedPixels": 5862,
+    "imagePixels": 729240,
+    "bbox": [
+      343,
+      519,
+      687,
+      585
+    ]
+  },
+  {
+    "id": "hologram",
+    "changedPixels": 4202,
+    "imagePixels": 729240,
+    "bbox": [
+      318,
+      236,
+      674,
+      453
+    ]
+  },
+  {
+    "id": "dissolve",
+    "changedPixels": 3525,
+    "imagePixels": 729240,
+    "bbox": [
+      397,
+      86,
+      654,
+      442
+    ]
+  },
+  {
+    "id": "thruster",
+    "changedPixels": 5395,
+    "imagePixels": 729240,
+    "bbox": [
+      194,
+      330,
+      414,
+      395
+    ]
+  },
+  {
+    "id": "alarm",
+    "changedPixels": 54535,
+    "imagePixels": 729240,
+    "bbox": [
+      329,
+      168,
+      701,
+      540
+    ]
+  },
+  {
+    "id": "magnet",
+    "changedPixels": 6456,
+    "imagePixels": 729240,
+    "bbox": [
+      316,
+      124,
+      695,
+      416
+    ]
+  },
+  {
+    "id": "click",
+    "changedPixels": 5012,
+    "imagePixels": 729240,
+    "bbox": [
+      461,
+      300,
+      569,
+      408
+    ]
+  },
+  {
+    "id": "success",
+    "changedPixels": 17330,
+    "imagePixels": 729240,
+    "bbox": [
+      428,
+      267,
+      602,
+      441
+    ]
+  },
+  {
+    "id": "error",
+    "changedPixels": 9893,
+    "imagePixels": 729240,
+    "bbox": [
+      449,
+      288,
+      581,
+      420
+    ]
+  },
+  {
+    "id": "unlock",
+    "changedPixels": 18100,
+    "imagePixels": 729240,
+    "bbox": [
+      436,
+      261,
+      602,
+      440
+    ]
+  },
+  {
+    "id": "levelup",
+    "changedPixels": 209346,
+    "imagePixels": 729240,
+    "bbox": [
+      335,
+      0,
+      695,
+      708
+    ]
+  },
+  {
+    "id": "loading",
+    "changedPixels": 5115,
+    "imagePixels": 729240,
+    "bbox": [
+      414,
+      259,
+      614,
+      489
+    ]
+  },
+  {
+    "id": "selection",
+    "changedPixels": 20923,
+    "imagePixels": 729240,
+    "bbox": [
+      400,
+      164,
+      630,
+      485
+    ]
+  },
+  {
+    "id": "quest",
+    "changedPixels": 31039,
+    "imagePixels": 729240,
+    "bbox": [
+      369,
+      228,
+      636,
+      476
+    ]
+  },
+  {
+    "id": "health",
+    "changedPixels": 1386,
+    "imagePixels": 729240,
+    "bbox": [
+      403,
+      305,
+      570,
+      474
+    ]
+  },
+  {
+    "id": "shieldcharge",
+    "changedPixels": 30029,
+    "imagePixels": 729240,
+    "bbox": [
+      361,
+      246,
+      604,
+      490
+    ]
+  },
+  {
+    "id": "coins",
+    "changedPixels": 10158,
+    "imagePixels": 729240,
+    "bbox": [
+      231,
+      221,
+      712,
+      563
+    ]
+  },
+  {
+    "id": "confetti",
+    "changedPixels": 14024,
+    "imagePixels": 729240,
+    "bbox": [
+      218,
+      370,
+      809,
+      560
+    ]
+  },
+  {
+    "id": "fireworks",
+    "changedPixels": 16568,
+    "imagePixels": 729240,
+    "bbox": [
+      137,
+      77,
+      849,
+      458
+    ]
+  },
+  {
+    "id": "hearts",
+    "changedPixels": 4619,
+    "imagePixels": 729240,
+    "bbox": [
+      476,
+      222,
+      547,
+      355
+    ]
+  },
+  {
+    "id": "stars",
+    "changedPixels": 17992,
+    "imagePixels": 729240,
+    "bbox": [
+      431,
+      274,
+      593,
+      432
+    ]
+  },
+  {
+    "id": "treasure",
+    "changedPixels": 62810,
+    "imagePixels": 729240,
+    "bbox": [
+      419,
+      44,
+      611,
+      455
+    ]
+  },
+  {
+    "id": "gems",
+    "changedPixels": 10091,
+    "imagePixels": 729240,
+    "bbox": [
+      387,
+      240,
+      652,
+      438
+    ]
+  },
+  {
+    "id": "ribbons",
+    "changedPixels": 4501,
+    "imagePixels": 729240,
+    "bbox": [
+      0,
+      0,
+      1030,
+      154
+    ]
+  },
+  {
+    "id": "cascade",
+    "changedPixels": 19234,
+    "imagePixels": 729240,
+    "bbox": [
+      9,
+      268,
+      1025,
+      552
+    ]
+  },
+  {
+    "id": "lanterns",
+    "changedPixels": 2896,
+    "imagePixels": 729240,
+    "bbox": [
+      21,
+      593,
+      961,
+      708
+    ]
+  },
+  {
+    "id": "sprint",
+    "changedPixels": 8660,
+    "imagePixels": 729240,
+    "bbox": [
+      26,
+      45,
+      999,
+      708
+    ]
+  },
+  {
+    "id": "racing3d",
+    "changedPixels": 94460,
+    "imagePixels": 729240,
+    "bbox": [
+      0,
+      266,
+      968,
+      708
+    ]
+  },
+  {
+    "id": "jet3d",
+    "changedPixels": 5974,
+    "imagePixels": 729240,
+    "bbox": [
+      92,
+      388,
+      532,
+      639
+    ]
+  },
+  {
+    "id": "warp3d",
+    "changedPixels": 48283,
+    "imagePixels": 729240,
+    "bbox": [
+      42,
+      31,
+      1030,
+      708
+    ]
+  },
+  {
+    "id": "fountain3d",
+    "changedPixels": 5051,
+    "imagePixels": 729240,
+    "bbox": [
+      408,
+      228,
+      659,
+      542
+    ]
+  },
+  {
+    "id": "portal3d",
+    "changedPixels": 22721,
+    "imagePixels": 729240,
+    "bbox": [
+      378,
+      191,
+      653,
+      453
+    ]
+  },
+  {
+    "id": "explosion3d",
+    "changedPixels": 29412,
+    "imagePixels": 729240,
+    "bbox": [
+      262,
+      104,
+      741,
+      581
+    ]
+  },
+  {
+    "id": "snow3d",
+    "changedPixels": 8780,
+    "imagePixels": 729240,
+    "bbox": [
+      7,
+      0,
+      1027,
+      553
+    ]
+  },
+  {
+    "id": "fire3d",
+    "changedPixels": 11234,
+    "imagePixels": 729240,
+    "bbox": [
+      476,
+      213,
+      561,
+      474
+    ]
+  },
+  {
+    "id": "meteor3d",
+    "changedPixels": 3017,
+    "imagePixels": 729240,
+    "bbox": [
+      420,
+      114,
+      615,
+      172
+    ]
+  }
+]

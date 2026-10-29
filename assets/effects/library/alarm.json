@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "alarm-1",
+      "texture": "ring",
+      "seed": 67525,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 2,
+      "lifetime": 1,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": 210,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.2
+        },
+        {
+          "time": 1,
+          "value": 1.8
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffd6bf"
+        },
+        {
+          "time": 0.5,
+          "color": "#fa7558"
+        },
+        {
+          "time": 1,
+          "color": "#9b3042"
+        }
+      ]
+    },
+    {
+      "id": "alarm-2",
+      "texture": "triangle",
+      "seed": 67542,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 3,
+      "lifetime": 0.5,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        45,
+        65
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "alarm-3",
+      "texture": "glow",
+      "seed": 67559,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "circle",
+        "radius": 75,
+        "edge": true
+      },
+      "rate": 26,
+      "lifetime": 0.5,
+      "speed": [
+        30,
+        60
+      ],
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        2,
+        5
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffd6bf"
+        },
+        {
+          "time": 0.5,
+          "color": "#fa7558"
+        },
+        {
+          "time": 1,
+          "color": "#9b3042"
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "tech",
+    "actor": "beacon",
+    "zoom": 1.4,
+    "bindings": {
+      "alarm-1": {},
+      "alarm-2": {},
+      "alarm-3": {}
+    }
+  }
+}

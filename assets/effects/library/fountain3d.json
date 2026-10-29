@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "dimension": 3,
+  "emitters": [
+    {
+      "id": "fountain3d-1",
+      "texture": "drop",
+      "seed": 93291,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 170,
+      "lifetime": [
+        1.1,
+        1.6
+      ],
+      "speed": [
+        4,
+        6
+      ],
+      "size": [
+        0.07,
+        0.16
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "acceleration": {
+        "x": 0,
+        "y": -7,
+        "z": 0
+      },
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 0.22,
+      "billboard": "velocity"
+    },
+    {
+      "id": "fountain3d-2",
+      "texture": "ripple",
+      "seed": 93308,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 3,
+        "height": 0,
+        "depth": 3
+      },
+      "rate": 12,
+      "lifetime": 0.8,
+      "speed": 0,
+      "size": [
+        0.5,
+        0.9
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 0,
+      "billboard": "ground"
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "motion",
+    "actor": "basin",
+    "zoom": 1,
+    "bindings": {
+      "fountain3d-1": {
+        "y": 0.5
+      },
+      "fountain3d-2": {
+        "y": 0.15
+      }
+    }
+  }
+}

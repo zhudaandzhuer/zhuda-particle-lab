@@ -1,0 +1,585 @@
+{
+  "checkedAt": "2026-10-29T14:37:12.517Z",
+  "url": "http://localhost:8894/",
+  "presets": {},
+  "samples": {
+    "0.65": {
+      "time": 0.6500000000000001,
+      "particles": 0,
+      "trailPoints": 0,
+      "flowPoints": 0,
+      "flowWindows": [
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "meshSubmissions": 0,
+      "drawCalls": 69,
+      "positionsFinite": true
+    },
+    "0.8": {
+      "time": 0.7999999999999996,
+      "particles": 0,
+      "trailPoints": 52,
+      "flowPoints": 512,
+      "flowWindows": [
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        },
+        {
+          "start": 0,
+          "end": 0.13333333333333286
+        }
+      ],
+      "meshSubmissions": 12,
+      "drawCalls": 81,
+      "positionsFinite": true
+    },
+    "1.05": {
+      "time": 1.0499999999999987,
+      "particles": 30,
+      "trailPoints": 172,
+      "flowPoints": 512,
+      "flowWindows": [
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        },
+        {
+          "start": 0,
+          "end": 0.466666666666665
+        }
+      ],
+      "meshSubmissions": 21,
+      "drawCalls": 90,
+      "positionsFinite": true
+    },
+    "1.5": {
+      "time": 1.4999999999999971,
+      "particles": 42,
+      "trailPoints": 340,
+      "flowPoints": 512,
+      "flowWindows": [
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "meshSubmissions": 21,
+      "drawCalls": 90,
+      "positionsFinite": true
+    },
+    "3.5": {
+      "time": 3.4999999999999902,
+      "particles": 57,
+      "trailPoints": 340,
+      "flowPoints": 512,
+      "flowWindows": [
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "meshSubmissions": 21,
+      "drawCalls": 86,
+      "positionsFinite": true
+    },
+    "5.7": {
+      "time": 5.700000000000073,
+      "particles": 30,
+      "trailPoints": 284,
+      "flowPoints": 512,
+      "flowWindows": [
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        }
+      ],
+      "meshSubmissions": 20,
+      "drawCalls": 90,
+      "positionsFinite": true
+    },
+    "7.8": {
+      "time": 7.8000000000001775,
+      "particles": 0,
+      "trailPoints": 0,
+      "flowPoints": 0,
+      "flowWindows": [
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        },
+        {
+          "start": 0.1538461538462667,
+          "end": 1
+        }
+      ],
+      "meshSubmissions": 0,
+      "drawCalls": 67,
+      "positionsFinite": true
+    }
+  },
+  "rebuilds": 12,
+  "performance": {
+    "scope": "Desktop headless Chrome, real Laya 3D WebGL; no mobile performance claim",
+    "samples": [
+      {
+        "time": 0.19999999999999998,
+        "particles": 0,
+        "cpuMs": 0.2518170836484205,
+        "drawCalls": 69,
+        "frameP95": 16.799999999999955
+      },
+      {
+        "time": 0.4000000000000004,
+        "particles": 0,
+        "cpuMs": 0.14244888175613984,
+        "drawCalls": 68,
+        "frameP95": 16.700000000000273
+      },
+      {
+        "time": 0.591666666666667,
+        "particles": 0,
+        "cpuMs": 0.11275867867290452,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 0.7916666666666663,
+        "particles": 0,
+        "cpuMs": 0.40729168897494106,
+        "drawCalls": 81,
+        "frameP95": 16.799999999999955
+      },
+      {
+        "time": 1.0083333333333322,
+        "particles": 26,
+        "cpuMs": 0.5714800008248554,
+        "drawCalls": 92,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 1.2166666666666648,
+        "particles": 35,
+        "cpuMs": 0.5038706431066804,
+        "drawCalls": 90,
+        "frameP95": 16.799999999999955
+      },
+      {
+        "time": 1.4083333333333308,
+        "particles": 41,
+        "cpuMs": 0.45556676547196445,
+        "drawCalls": 92,
+        "frameP95": 16.799999999999955
+      },
+      {
+        "time": 1.6249999999999967,
+        "particles": 49,
+        "cpuMs": 0.6214283357286611,
+        "drawCalls": 92,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 1.824999999999996,
+        "particles": 43,
+        "cpuMs": 0.7376330340485503,
+        "drawCalls": 88,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 2.041666666666662,
+        "particles": 44,
+        "cpuMs": 0.7766056120951509,
+        "drawCalls": 92,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 2.2416666666666614,
+        "particles": 47,
+        "cpuMs": 0.7465824319187943,
+        "drawCalls": 90,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 2.4583333333333273,
+        "particles": 42,
+        "cpuMs": 0.718161144118073,
+        "drawCalls": 92,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 2.674999999999993,
+        "particles": 44,
+        "cpuMs": 0.7637489725775609,
+        "drawCalls": 100,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 2.8749999999999925,
+        "particles": 51,
+        "cpuMs": 0.7214007553510697,
+        "drawCalls": 90,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 3.0916666666666583,
+        "particles": 53,
+        "cpuMs": 0.7684056379857683,
+        "drawCalls": 94,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 3.2916666666666576,
+        "particles": 53,
+        "cpuMs": 0.7918002143485066,
+        "drawCalls": 92,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 3.5083333333333235,
+        "particles": 53,
+        "cpuMs": 0.7856971413562537,
+        "drawCalls": 87,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 3.708333333333323,
+        "particles": 49,
+        "cpuMs": 0.7878231734433369,
+        "drawCalls": 92,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 3.9249999999999887,
+        "particles": 51,
+        "cpuMs": 0.7617697188628796,
+        "drawCalls": 86,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 4.124999999999995,
+        "particles": 50,
+        "cpuMs": 0.7376386528806992,
+        "drawCalls": 92,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 4.341666666666672,
+        "particles": 50,
+        "cpuMs": 0.7196157791245406,
+        "drawCalls": 90,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 4.541666666666682,
+        "particles": 49,
+        "cpuMs": 0.7754220979296842,
+        "drawCalls": 90,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 4.7583333333333595,
+        "particles": 44,
+        "cpuMs": 0.7801008158077395,
+        "drawCalls": 92,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 4.975000000000037,
+        "particles": 44,
+        "cpuMs": 0.7802061653597949,
+        "drawCalls": 88,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 5.175000000000047,
+        "particles": 47,
+        "cpuMs": 0.7643212912125708,
+        "drawCalls": 92,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 5.391666666666724,
+        "particles": 52,
+        "cpuMs": 0.7488730296252235,
+        "drawCalls": 88,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 5.591666666666734,
+        "particles": 46,
+        "cpuMs": 0.7695071943742912,
+        "drawCalls": 92,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 5.808333333333412,
+        "particles": 19,
+        "cpuMs": 0.7868433806378183,
+        "drawCalls": 87,
+        "frameP95": 16.799999999999272
+      },
+      {
+        "time": 6.008333333333422,
+        "particles": 11,
+        "cpuMs": 0.7605998408351285,
+        "drawCalls": 75,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 6.225000000000099,
+        "particles": 5,
+        "cpuMs": 0.5399049826353577,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 6.425000000000109,
+        "particles": 1,
+        "cpuMs": 0.29830169758792247,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 6.625000000000119,
+        "particles": 1,
+        "cpuMs": 0.1796886810421735,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 6.825000000000129,
+        "particles": 0,
+        "cpuMs": 0.1513926136179088,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 7.041666666666806,
+        "particles": 0,
+        "cpuMs": 0.1688762969453877,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 7.241666666666816,
+        "particles": 0,
+        "cpuMs": 0.15282855692267178,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 7.441666666666826,
+        "particles": 0,
+        "cpuMs": 0.13536117032896064,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 7.641666666666836,
+        "particles": 0,
+        "cpuMs": 0.12754214658286067,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      },
+      {
+        "time": 7.841666666666846,
+        "particles": 0,
+        "cpuMs": 0.08561969345947923,
+        "drawCalls": 67,
+        "frameP95": 16.700000000000728
+      }
+    ],
+    "peakParticles": 53,
+    "peakDrawCalls": 100,
+    "maxSmoothedCpuMs": 0.7918002143485066,
+    "frameP95Ms": 16.700000000000728
+  },
+  "passed": true
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "dimension": 3,
+  "emitters": [
+    {
+      "id": "portal3d-1",
+      "texture": "rune",
+      "seed": 94282,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 1.4,
+      "lifetime": 1.4,
+      "speed": 0,
+      "size": 3.7,
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.8
+        },
+        {
+          "time": 0.2,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#f3e8ff"
+        },
+        {
+          "time": 0.5,
+          "color": "#ad8def"
+        },
+        {
+          "time": 1,
+          "color": "#5844ac"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 0,
+      "angularVelocity": 0.5
+    },
+    {
+      "id": "portal3d-2",
+      "texture": "glow",
+      "seed": 94299,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 110,
+      "lifetime": 0.5,
+      "speed": [
+        0.1,
+        0.4
+      ],
+      "size": [
+        0.04,
+        0.12
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "spread": 3.141592653589793
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "motion",
+    "actor": "portal",
+    "zoom": 1,
+    "bindings": {
+      "portal3d-1": {
+        "y": 2
+      },
+      "portal3d-2": {
+        "motion": "orbit",
+        "radius": 1.7,
+        "frequency": 2.5,
+        "y": 2
+      }
+    }
+  }
+}

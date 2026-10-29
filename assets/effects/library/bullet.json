@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "bullet-1",
+      "texture": "spark",
+      "seed": 41759,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.4,
+      "speed": [
+        100,
+        280
+      ],
+      "angle": [
+        -2.8,
+        -0.4
+      ],
+      "size": [
+        2,
+        4
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#fff5c7"
+        },
+        {
+          "time": 0.5,
+          "color": "#ffd56d"
+        },
+        {
+          "time": 1,
+          "color": "#d0873b"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 28
+        }
+      ],
+      "stretch": 5,
+      "alignToVelocity": true,
+      "acceleration": {
+        "x": 0,
+        "y": 190
+      }
+    },
+    {
+      "id": "bullet-2",
+      "texture": "dust",
+      "seed": 41776,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 0,
+      "lifetime": 0.7,
+      "speed": [
+        20,
+        50
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        25,
+        45
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#cfdbdf"
+        },
+        {
+          "time": 0.5,
+          "color": "#8a9ba5"
+        },
+        {
+          "time": 1,
+          "color": "#4d6274"
+        }
+      ],
+      "bursts": [
+        {
+          "time": 0,
+          "count": 9
+        }
+      ]
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "combat",
+    "actor": "wall",
+    "zoom": 1.8,
+    "bindings": {
+      "bullet-1": {},
+      "bullet-2": {}
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "blizzard-1",
+      "texture": "snowflake",
+      "seed": 4101,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 30,
+        "height": 620
+      },
+      "rate": 130,
+      "lifetime": [
+        2,
+        3.3
+      ],
+      "speed": [
+        230,
+        340
+      ],
+      "angle": [
+        0.2,
+        0.45
+      ],
+      "size": [
+        4,
+        12
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#ffffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#b4ebff"
+        },
+        {
+          "time": 1,
+          "color": "#5a8bd6"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -1,
+        1
+      ],
+      "turbulence": {
+        "strength": 70,
+        "frequency": 5
+      }
+    },
+    {
+      "id": "blizzard-2",
+      "texture": "smoke",
+      "seed": 4118,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 30,
+        "height": 620
+      },
+      "rate": 12,
+      "lifetime": 3,
+      "speed": [
+        150,
+        220
+      ],
+      "angle": [
+        -0.1,
+        0.1
+      ],
+      "size": [
+        120,
+        220
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.28
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#cfdbdf"
+        },
+        {
+          "time": 0.5,
+          "color": "#8a9ba5"
+        },
+        {
+          "time": 1,
+          "color": "#4d6274"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "weather",
+    "actor": "none",
+    "zoom": 1,
+    "bindings": {
+      "blizzard-1": {
+        "y": -30,
+        "x": -470
+      },
+      "blizzard-2": {
+        "x": -470,
+        "y": -30
+      }
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "waterfall-1",
+      "texture": "streak",
+      "seed": 20948,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "box",
+        "width": 180,
+        "height": 4
+      },
+      "rate": 130,
+      "lifetime": 1.6,
+      "speed": [
+        170,
+        260
+      ],
+      "angle": [
+        1.52,
+        1.62
+      ],
+      "size": [
+        2,
+        6
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -1,
+        1
+      ],
+      "stretch": 12,
+      "alignToVelocity": true,
+      "acceleration": {
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "id": "waterfall-2",
+      "texture": "smoke",
+      "seed": 20965,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "alpha",
+      "shape": {
+        "type": "point"
+      },
+      "rate": 30,
+      "lifetime": 1,
+      "speed": [
+        20,
+        55
+      ],
+      "angle": [
+        -2.7,
+        -0.4
+      ],
+      "size": [
+        35,
+        60
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.4,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 2
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.2,
+          "value": 0.18
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "rotation": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "angularVelocity": [
+        -0.4,
+        0.4
+      ],
+      "turbulence": {
+        "strength": 22,
+        "frequency": 2
+      }
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "water",
+    "actor": "cliff",
+    "zoom": 1.35,
+    "bindings": {
+      "waterfall-1": {
+        "y": -220
+      },
+      "waterfall-2": {
+        "y": 210
+      }
+    }
+  }
+}

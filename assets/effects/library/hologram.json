@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "emitters": [
+    {
+      "id": "hologram-1",
+      "texture": "hex",
+      "seed": 64552,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 200,
+        "height": 140
+      },
+      "rate": 16,
+      "lifetime": 0.9,
+      "speed": [
+        5,
+        15
+      ],
+      "angle": [
+        -1.85,
+        -1.3
+      ],
+      "size": [
+        18,
+        38
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#63eddf"
+        },
+        {
+          "time": 1,
+          "color": "#3e7bb5"
+        }
+      ]
+    },
+    {
+      "id": "hologram-2",
+      "texture": "streak",
+      "seed": 64569,
+      "maxParticles": 256,
+      "space": "world",
+      "blend": "additive",
+      "shape": {
+        "type": "box",
+        "width": 170,
+        "height": 1
+      },
+      "rate": 50,
+      "lifetime": 0.13,
+      "speed": 0,
+      "angle": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "size": [
+        1,
+        2
+      ],
+      "sizeOverLife": [
+        {
+          "time": 0,
+          "value": 0.3
+        },
+        {
+          "time": 0.16,
+          "value": 1
+        },
+        {
+          "time": 1,
+          "value": 0.1
+        }
+      ],
+      "alphaOverLife": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 0.08,
+          "value": 0.85
+        },
+        {
+          "time": 0.65,
+          "value": 0.6
+        },
+        {
+          "time": 1,
+          "value": 0
+        }
+      ],
+      "colorOverLife": [
+        {
+          "time": 0,
+          "color": "#d9ffff"
+        },
+        {
+          "time": 0.5,
+          "color": "#6cddf5"
+        },
+        {
+          "time": 1,
+          "color": "#386eaf"
+        }
+      ],
+      "stretch": 110
+    }
+  ],
+  "labPreview": {
+    "version": 1,
+    "scene": "tech",
+    "actor": "panel",
+    "zoom": 1.4,
+    "bindings": {
+      "hologram-1": {},
+      "hologram-2": {
+        "motion": "scan",
+        "radius": 100,
+        "frequency": 1.4
+      }
+    }
+  }
+}
