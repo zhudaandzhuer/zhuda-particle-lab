@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-30T03:48:12.421Z",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "url": "http://localhost:8897/zhuda-particle-lab/capabilities.html",
+  "cases": [
+    {
+      "mode": "dissolve",
+      "particles": 1,
+      "events": 0
+    },
+    {
+      "mode": "distortion",
+      "particles": 1,
+      "events": 0
+    },
+    {
+      "mode": "soft",
+      "particles": 1,
+      "events": 0
+    },
+    {
+      "mode": "bloom",
+      "particles": 1,
+      "events": 0
+    },
+    {
+      "mode": "flipbook",
+      "particles": 1,
+      "events": 0
+    },
+    {
+      "mode": "collision",
+      "particles": 147,
+      "events": 51
+    },
+    {
+      "mode": "timeline",
+      "particles": 50,
+      "events": 0
+    },
+    {
+      "mode": "budget",
+      "particles": 600,
+      "events": 0
+    },
+    {
+      "mode": "pbr",
+      "particles": 0,
+      "events": 0
+    }
+  ],
+  "pixels": {
+    "dissolve": {
+      "changedPixels": 47668,
+      "totalPixels": 664200
+    },
+    "distortion": {
+      "changedPixels": 47123,
+      "totalPixels": 664200
+    },
+    "soft": {
+      "changedPixels": 22497,
+      "totalPixels": 664200
+    },
+    "flipbook": {
+      "changedPixels": 7815,
+      "totalPixels": 664200
+    },
+    "bloom": {
+      "changedPixels": 3497,
+      "totalPixels": 664200
+    }
+  },
+  "sceneSwitches": 24,
+  "editorReplay": true,
+  "scope": "Desktop Chrome real WebGL; stage pixel differences, editor replay and resource ownership; GPU completion time unmeasured."
+}

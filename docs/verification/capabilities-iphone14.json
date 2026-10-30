@@ -1,0 +1,103 @@
+{
+  "kind": "zhuda-device-capabilities",
+  "passed": true,
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+  "pixelRatio": 3,
+  "viewport": {
+    "width": 390,
+    "height": 699
+  },
+  "cases": [
+    {
+      "mode": "dissolve",
+      "passed": true,
+      "finite": true,
+      "particles": 1,
+      "events": 0,
+      "frameP95Ms": 21,
+      "drawCalls": 4,
+      "samples": 60
+    },
+    {
+      "mode": "distortion",
+      "passed": true,
+      "finite": true,
+      "particles": 1,
+      "events": 0,
+      "frameP95Ms": 21,
+      "drawCalls": 5,
+      "samples": 60
+    },
+    {
+      "mode": "soft",
+      "passed": true,
+      "finite": true,
+      "particles": 1,
+      "events": 0,
+      "frameP95Ms": 21,
+      "drawCalls": 8,
+      "samples": 60
+    },
+    {
+      "mode": "bloom",
+      "passed": true,
+      "finite": true,
+      "particles": 1,
+      "events": 0,
+      "frameP95Ms": 20,
+      "drawCalls": 16,
+      "samples": 60
+    },
+    {
+      "mode": "flipbook",
+      "passed": true,
+      "finite": true,
+      "particles": 1,
+      "events": 0,
+      "frameP95Ms": 20,
+      "drawCalls": 4,
+      "samples": 60
+    },
+    {
+      "mode": "collision",
+      "passed": true,
+      "finite": true,
+      "particles": 142,
+      "events": 27,
+      "frameP95Ms": 21,
+      "drawCalls": 5,
+      "samples": 60
+    },
+    {
+      "mode": "timeline",
+      "passed": true,
+      "finite": true,
+      "particles": 50,
+      "events": 0,
+      "frameP95Ms": 21,
+      "drawCalls": 4,
+      "samples": 60
+    },
+    {
+      "mode": "budget",
+      "passed": true,
+      "finite": true,
+      "particles": 446,
+      "events": 0,
+      "frameP95Ms": 19,
+      "drawCalls": 5,
+      "samples": 60
+    },
+    {
+      "mode": "pbr",
+      "passed": true,
+      "finite": true,
+      "particles": 0,
+      "events": 0,
+      "frameP95Ms": 21,
+      "drawCalls": 6,
+      "samples": 60
+    }
+  ],
+  "receivedAt": "2026-10-30T03:45:53.017Z"
+}

@@ -6,6 +6,10 @@
 
 **[▶ 觀看 60 FPS 展示影片](https://zhudaandzhuer.github.io/zhuda-particle-lab/showcase.html)** · **[立即玩 100 種效果](https://zhudaandzhuer.github.io/zhuda-particle-lab/)** · **[效果圖鑑](https://zhudaandzhuer.github.io/zhuda-particle-lab/catalog.html)** · [下載 MP4](https://zhudaandzhuer.github.io/zhuda-particle-lab/media/showcase-60fps.mp4)
 
+[進階能力工作台](https://zhudaandzhuer.github.io/zhuda-particle-lab/capabilities.html) 以獨立頁面驗證溶解、折射、柔化深度、Bloom、Flipbook、碰撞事件、時間軸、預算與 Unity PBR 轉換；它使用引擎公開 SDK，不把場景或資產放入引擎倉庫。
+
+[九種能力與 iPhone 14 實機驗收](VERIFICATION-CAPABILITIES.md) 包含畫面差異、JSON 編輯／重播、資源釋放與實測範圍。
+
 100 種可調整的實用場景效果，涵蓋天氣、火煙、水體、地形生態、戰鬥、魔法、科技、介面回饋、慶典與 3D 動態。使用 [zhuda-laya-engine](https://github.com/zhudaandzhuer/zhuda-laya-engine) 的公開 SDK，直接在瀏覽器中以 WebGL 渲染。
 
 | 效果庫 | 操作 | 已驗證 |
@@ -26,11 +30,11 @@
 
 ## 本機啟動
 
-需要 Node.js 24+。引擎版本固定為 `bd9ad03fb4c6dc9d37b1f9a3a616968676ef7e50`；瀏覽器執行時使用公開的 ESM SDK。
+需要 Node.js 24+。引擎版本固定為 `0ab067faff34ed2db47ec6e181b3e7931df68189`；瀏覽器執行時使用公開的 ESM SDK。
 
 ```sh
 git clone https://github.com/zhudaandzhuer/zhuda-laya-engine.git Zhuda-LayaAir
-git -C Zhuda-LayaAir checkout bd9ad03fb4c6dc9d37b1f9a3a616968676ef7e50
+git -C Zhuda-LayaAir checkout 0ab067faff34ed2db47ec6e181b3e7931df68189
 npm --prefix Zhuda-LayaAir install
 npm --prefix Zhuda-LayaAir run build
 
@@ -40,7 +44,7 @@ npm run build
 npm start
 ```
 
-開啟 [http://localhost:8894/showcase.html](http://localhost:8894/showcase.html) 看影片，或 [http://localhost:8894/](http://localhost:8894/) 進入實驗室。可設定 `ZHUDA_ENGINE_ROOT` 指向其他引擎目錄；`PORT` 可更換服務埠。預先產生的效果 JSON、貼圖縮圖與影片均已收錄，正常建置不需要錄影工具。
+開啟 [http://localhost:8894/showcase.html](http://localhost:8894/showcase.html) 看影片、[http://localhost:8894/](http://localhost:8894/) 進入效果實驗室，或 [http://localhost:8894/capabilities.html](http://localhost:8894/capabilities.html) 驗證通用引擎能力。可設定 `ZHUDA_ENGINE_ROOT` 指向其他引擎目錄；`PORT` 可更換服務埠。預先產生的效果 JSON、貼圖縮圖與影片均已收錄，正常建置不需要錄影工具。
 
 GitHub Actions 使用固定的引擎版本建置，通過全部瀏覽器驗證後才發布 GitHub Pages。
 
@@ -63,6 +67,8 @@ npm run verify
 ```
 
 The full check includes all 100 effects plus the original 2D and racing regressions. `npm run verify:catalog` runs just the catalogue suite. Requires Google Chrome at its standard macOS path, or `CHROME_PATH`; set `LAB_URL` for another server.
+
+`npm run verify:capabilities` checks the separate capability workbench in all nine modes, including actual WebGL submissions, collision events, material conversion, resource ownership and repeated scene switching.
 
 For each effect the catalogue suite verifies real WebGL rendering, nonempty bounded particles, finite coordinates, reproducible replay, advancing animation and JSON roundtrip. New scenes also preserve their simulated positions after import. It captures on/off screenshots, checks category/search controls, rejects invalid data without losing the effect, checks drain/toggles/cameras, and performs 100 further mixed 2D/3D scene switches while checking bounded nodes and shared textures.
 

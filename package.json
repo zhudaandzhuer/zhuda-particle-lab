@@ -13,7 +13,8 @@
     "verify:catalog": "node tests/verify-catalog-browser.mjs",
     "catalog:gallery": "python3 scripts/catalog-contact-sheet.py",
     "record:showcase": "node scripts/record-showcase.mjs",
-    "verify:publication": "node tests/verify-publication-browser.mjs"
+    "verify:publication": "node tests/verify-publication-browser.mjs",
+    "verify:capabilities": "node tests/verify-capabilities-browser.mjs"
   },
   "dependencies": {
     "zhuda-laya-engine": "file:../Zhuda-LayaAir"
